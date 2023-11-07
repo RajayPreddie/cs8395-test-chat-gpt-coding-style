@@ -1,0 +1,13 @@
+{
+    "id": "problem_51",
+    "description": "",
+    "code": "#Discard Program\n\n#This program will take a list of numbers as input and will discard any numbers that are negative.\n\n#Create a function to discard negative numbers\ndef discard_negatives(numbers):\n    #Create a new list to store the positive numbers",
+    "tags": [
+        "discard",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "discard",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

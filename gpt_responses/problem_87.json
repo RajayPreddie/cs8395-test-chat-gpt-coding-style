@@ -1,0 +1,13 @@
+{
+    "id": "problem_87",
+    "description": "",
+    "code": "#importing the necessary packages\nimport numpy as np\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.neighbors import KNeighborsClassifier\n\n#creating the dataset",
+    "tags": [
+        "sklearn",
+        "High",
+        "normal code"
+    ],
+    "keyword": "sklearn",
+    "difficulty": "High",
+    "is_well_written_code": false
+}

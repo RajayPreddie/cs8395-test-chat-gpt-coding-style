@@ -1,0 +1,13 @@
+{
+    "id": "problem_33",
+    "description": "",
+    "code": "def factorial(n): \n  if n == 0: \n    return 1\n  else: \n    return n * factorial(n-1) \n\nprint(factorial(5))",
+    "tags": [
+        "Recursion",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "Recursion",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

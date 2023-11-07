@@ -1,0 +1,13 @@
+{
+    "id": "problem_7",
+    "description": "",
+    "code": "# This program demonstrates concurrency in Python by \n# creating two threads that execute a simple function \n# simultaneously.\n\nimport threading\n\n# Define a function that prints the thread name\ndef print_thread_name():\n    print(threading.current",
+    "tags": [
+        "Concurrency",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "Concurrency",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

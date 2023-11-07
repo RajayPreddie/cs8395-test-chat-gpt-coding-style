@@ -1,0 +1,13 @@
+{
+    "id": "problem_59",
+    "description": "",
+    "code": "def get_input():\n    user_input = input(\"Enter a number: \")\n    return user_input\n\ndef calculate_square(number):\n    return number * number\n\nnumber = get_input()\nresult = calculate_square(number)",
+    "tags": [
+        "get",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "get",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

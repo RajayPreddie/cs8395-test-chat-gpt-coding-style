@@ -1,0 +1,13 @@
+{
+    "id": "problem_11",
+    "description": "",
+    "code": "def decorator_function(function): \n  def wrapper_function(): \n    print(\"This is before function execution\") \n    function() \n    print(\"This is after function execution\") \n  return wrapper_function \n\n@decorator_",
+    "tags": [
+        "Decorator",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "Decorator",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

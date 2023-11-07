@@ -1,0 +1,13 @@
+{
+    "id": "problem_74",
+    "description": "",
+    "code": "import os\n\n# Function to get the list of files in a directory\ndef get_files_in_dir(dir_path):\n    files = []\n    for file in os.listdir(dir_path):\n        if os.path.isfile(",
+    "tags": [
+        "os",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "os",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

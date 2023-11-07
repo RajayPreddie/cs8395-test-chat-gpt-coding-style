@@ -1,0 +1,13 @@
+{
+    "id": "problem_29",
+    "description": "",
+    "code": "from collections import namedtuple \n\n# create a namedtuple \nPoint = namedtuple('Point', 'x y') \n\n# create a point \np1 = Point(1, 2) \n\n# print the point \nprint(",
+    "tags": [
+        "NamedTuple",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "NamedTuple",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

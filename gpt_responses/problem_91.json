@@ -1,0 +1,13 @@
+{
+    "id": "problem_91",
+    "description": "",
+    "code": "# Program to check if a string starts with a given substring\n\ndef startswith(string, substring):\n    # Get the length of substring\n    sub_len = len(substring)\n    \n    # Loop through the string\n    for i",
+    "tags": [
+        "startswith",
+        "High",
+        "normal code"
+    ],
+    "keyword": "startswith",
+    "difficulty": "High",
+    "is_well_written_code": false
+}

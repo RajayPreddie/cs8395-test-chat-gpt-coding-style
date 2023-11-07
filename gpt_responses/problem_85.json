@@ -1,0 +1,13 @@
+{
+    "id": "problem_85",
+    "description": "",
+    "code": "import scipy\n\ndef calculate_distance_between_points(x1, y1, x2, y2):\n    \"\"\"\n    Calculates the distance between two points (x1, y1) and (x2, y2)\n    using the",
+    "tags": [
+        "scipy",
+        "High",
+        "normal code"
+    ],
+    "keyword": "scipy",
+    "difficulty": "High",
+    "is_well_written_code": false
+}

@@ -1,0 +1,13 @@
+{
+    "id": "problem_30",
+    "description": "",
+    "code": "def add_numbers(x, y, z=None):\n    if (z==None):\n        return x + y\n    else:\n        return x + y + z\n\nprint(add_numbers(1, 2))\nprint(add_",
+    "tags": [
+        "Non-default argument",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Non-default argument",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

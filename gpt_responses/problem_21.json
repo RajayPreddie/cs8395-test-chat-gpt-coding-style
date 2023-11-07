@@ -1,0 +1,13 @@
+{
+    "id": "problem_21",
+    "description": "",
+    "code": "def multiply_numbers(num1, num2): \n  \"\"\"Function to multiply two numbers\"\"\"\n  result = num1 * num2 \n  return result \n  \nprint(multiply_numbers(2, 3)) # Output: 6",
+    "tags": [
+        "IdiomaticPython",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "IdiomaticPython",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

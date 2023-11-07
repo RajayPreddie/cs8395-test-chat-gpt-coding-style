@@ -1,0 +1,13 @@
+{
+    "id": "problem_41",
+    "description": "",
+    "code": "# Create a virtual environment using Python\nimport os\n\n# Create a virtual environment\nvirtualenv_name = \"my_virtual_environment\"\n\n# Create a folder to hold the virtual environment\nif not os.path.exists(virtualenv_name):",
+    "tags": [
+        "VirtualEnvironment",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "VirtualEnvironment",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

@@ -1,0 +1,13 @@
+{
+    "id": "problem_44",
+    "description": "",
+    "code": "def capitalize(string):\n  return string.title()\n\nprint(capitalize(\"hello world\"))",
+    "tags": [
+        "capitalize",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "capitalize",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

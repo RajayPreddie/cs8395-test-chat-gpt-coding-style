@@ -1,0 +1,13 @@
+{
+    "id": "problem_31",
+    "description": "",
+    "code": "from collections import OrderedDict \n\n# Create an empty OrderedDict \nmy_dict = OrderedDict() \n\n# Add key-value pairs to the OrderedDict \nmy_dict['name'] = 'John'\nmy",
+    "tags": [
+        "OrderedDict",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "OrderedDict",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

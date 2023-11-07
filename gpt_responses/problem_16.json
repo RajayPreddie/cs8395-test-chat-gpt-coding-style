@@ -1,0 +1,13 @@
+{
+    "id": "problem_16",
+    "description": "",
+    "code": "#Create a frozenset\nfrozenset_example = frozenset([\"a\", \"b\", \"c\"])\n\n#Print the frozenset\nprint(frozenset_example)",
+    "tags": [
+        "frozenset",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "frozenset",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

@@ -1,0 +1,13 @@
+{
+    "id": "problem_5",
+    "description": "",
+    "code": "from collections import ChainMap\n\n# Create two dictionaries \ndict1 = {'name': 'John', 'age': 30} \ndict2 = {'city': 'New York', 'country': 'USA'} \n  \n# Create a ChainMap",
+    "tags": [
+        "ChainMap",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "ChainMap",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

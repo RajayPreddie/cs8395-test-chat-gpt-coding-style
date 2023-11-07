@@ -1,0 +1,13 @@
+{
+    "id": "problem_12",
+    "description": "",
+    "code": "from collections import defaultdict \n\n# Create a defaultdict \nd = defaultdict(list) \n\n# Add elements to the defaultdict \nd['python'].append(\"awesome\") \nd['something-else'].append(\"not relevant\")",
+    "tags": [
+        "DefaultDict",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "DefaultDict",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

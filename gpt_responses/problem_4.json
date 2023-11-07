@@ -1,0 +1,13 @@
+{
+    "id": "problem_4",
+    "description": "",
+    "code": "def bytes_to_string(data):\n    \"\"\"Convert a bytes object to a string.\n\n    Args:\n        data (bytes): The data to convert.\n\n    Returns:\n        str: The data as a string.\n    \"\"\"\n    return data",
+    "tags": [
+        "bytes",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "bytes",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

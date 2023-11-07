@@ -1,0 +1,13 @@
+{
+    "id": "problem_34",
+    "description": "",
+    "code": "def reflection(x):\n    \"\"\"\n    Function to reflect the value of the input\n    \n    Parameters:\n    x (int): input value\n    \n    Returns:\n    int: reflected value\n    \"\"\"\n    return x * -1\n\n# Test",
+    "tags": [
+        "Reflection",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Reflection",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

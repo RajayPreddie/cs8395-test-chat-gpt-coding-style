@@ -1,0 +1,13 @@
+{
+    "id": "problem_75",
+    "description": "",
+    "code": "import pandas as pd\n\n# Create a Pandas DataFrame\ndata = {'Name': ['John', 'Paul', 'George', 'Ringo'],\n        'Age': [21, 22, 24, 25],\n        'Instrument': ['G",
+    "tags": [
+        "pandas",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "pandas",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

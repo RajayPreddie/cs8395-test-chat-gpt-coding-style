@@ -1,0 +1,13 @@
+{
+    "id": "problem_80",
+    "description": "",
+    "code": "import re\n\n# define a function that takes a string as input\ndef find_all_occurrences(string):\n  # compile the regular expression\n  regex = re.compile(r'\\w+')\n  # find all matches\n  matches =",
+    "tags": [
+        "re",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "re",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

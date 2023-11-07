@@ -1,0 +1,13 @@
+{
+    "id": "problem_62",
+    "description": "",
+    "code": "def intersection(list1, list2): \n  # Create a new list to store the result \n  result = [] \n  \n  # Iterate through the lists \n  for element in list1: \n    # If element is present in both lists",
+    "tags": [
+        "intersection",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "intersection",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

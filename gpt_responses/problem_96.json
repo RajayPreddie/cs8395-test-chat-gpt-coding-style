@@ -1,0 +1,13 @@
+{
+    "id": "problem_96",
+    "description": "",
+    "code": "import threading\nimport time\n\ndef worker():\n    print(\"worker\")\n    time.sleep(2)\n    return\n\nthreads = []\nfor i in range(5):\n    t = threading.Thread(target=worker)\n    threads",
+    "tags": [
+        "threading",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "threading",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

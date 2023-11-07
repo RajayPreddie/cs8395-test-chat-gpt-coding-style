@@ -1,0 +1,13 @@
+{
+    "id": "problem_52",
+    "description": "",
+    "code": "# Importing Django \nimport django \n  \n# Configuring settings for the project \ndjango.setup() \n  \n# Importing models from django.db \nfrom django.db import models \n  \n# Creating a Model class",
+    "tags": [
+        "django",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "django",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

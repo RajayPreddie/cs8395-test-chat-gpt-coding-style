@@ -1,0 +1,13 @@
+{
+    "id": "problem_28",
+    "description": "",
+    "code": "# MonkeyPatching\n\n# This code will create a class called \"MonkeyPatching\" which will allow us to easily modify the behavior of an object at runtime.\n\nclass MonkeyPatching:\n    def __init__(self, obj):\n        self.obj",
+    "tags": [
+        "MonkeyPatching",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "MonkeyPatching",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

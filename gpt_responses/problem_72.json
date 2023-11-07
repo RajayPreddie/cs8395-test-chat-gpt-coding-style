@@ -1,0 +1,13 @@
+{
+    "id": "problem_72",
+    "description": "",
+    "code": "import multiprocessing\n\ndef calculate_sum(numbers):\n    return sum(numbers)\n\nif __name__ == '__main__':\n    numbers = [1, 2, 3, 4, 5]\n    pool = multiprocessing",
+    "tags": [
+        "multiprocessing",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "multiprocessing",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

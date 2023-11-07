@@ -1,0 +1,13 @@
+{
+    "id": "problem_66",
+    "description": "",
+    "code": "def join_strings(string_list):\n    \"\"\"\n    Joins a list of strings into a single string.\n\n    Parameters\n    ----------\n    string_list : list\n        A list of strings to be joined.\n\n    Returns\n    -------\n    str",
+    "tags": [
+        "join",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "join",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

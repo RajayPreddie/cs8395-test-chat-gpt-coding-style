@@ -1,0 +1,13 @@
+{
+    "id": "problem_83",
+    "description": "",
+    "code": "import requests\n\nurl = 'https://www.example.com/'\n\nresponse = requests.get(url)\n\nif response.status_code == 200:\n    print(response.text)\nelse:\n    print(\"Error: Could not get response",
+    "tags": [
+        "requests",
+        "High",
+        "normal code"
+    ],
+    "keyword": "requests",
+    "difficulty": "High",
+    "is_well_written_code": false
+}

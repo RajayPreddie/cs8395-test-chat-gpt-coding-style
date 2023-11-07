@@ -1,0 +1,13 @@
+{
+    "id": "problem_89",
+    "description": "",
+    "code": "def sort(arr): \n  n = len(arr) \n  for i in range(n): \n    min_idx = i \n    for j in range(i+1, n): \n      if arr[min_idx]",
+    "tags": [
+        "sort",
+        "High",
+        "normal code"
+    ],
+    "keyword": "sort",
+    "difficulty": "High",
+    "is_well_written_code": false
+}

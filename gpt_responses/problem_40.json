@@ -1,0 +1,13 @@
+{
+    "id": "problem_40",
+    "description": "",
+    "code": "# This program uses the UnitTesting keyword to demonstrate a simple Unit Testing example\n\n# Import the unittest module\nimport unittest\n\n# Define a class for the unit test\nclass TestCalculator(unittest.TestCase):",
+    "tags": [
+        "UnitTesting",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "UnitTesting",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

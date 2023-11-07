@@ -1,0 +1,13 @@
+{
+    "id": "problem_84",
+    "description": "",
+    "code": "def reverse(string): \n    #initialize an empty string \n    rev_string = \"\" \n    #iterate through the string in reverse order \n    for i in range(len(string)-1, -1, -1): \n        rev",
+    "tags": [
+        "reverse",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "reverse",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

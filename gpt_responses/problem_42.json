@@ -1,0 +1,13 @@
+{
+    "id": "problem_42",
+    "description": "",
+    "code": "def add(x, y):\n    \"\"\"\n    This function adds two numbers and returns the result\n    \"\"\"\n    return x + y",
+    "tags": [
+        "add",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "add",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

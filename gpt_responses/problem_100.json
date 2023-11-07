@@ -1,0 +1,13 @@
+{
+    "id": "problem_100",
+    "description": "",
+    "code": "import asyncio\n\nasync def main():\n    print(\"Program Start\")\n    await asyncio.sleep(2)\n    print(\"Program End\")\n\nif __name__ == \"__main__\":\n    loop = asyncio.get_event_loop",
+    "tags": [
+        "asyncio",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "asyncio",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

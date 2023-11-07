@@ -1,0 +1,13 @@
+{
+    "id": "problem_25",
+    "description": "",
+    "code": "def memoize(f):\n  memo = {}\n  def helper(x):\n    if x not in memo:            \n      memo[x] = f(x)\n    return memo[x]\n  return helper\n\n@memoize\ndef fib",
+    "tags": [
+        "Memoization",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "Memoization",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

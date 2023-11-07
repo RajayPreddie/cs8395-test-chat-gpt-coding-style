@@ -1,0 +1,13 @@
+{
+    "id": "problem_39",
+    "description": "",
+    "code": "# Using TypeHinting for a Low Complexity Python Program\n\ndef add_numbers(num1: int, num2: int) -> int:\n    \"\"\"\n    Function to add two numbers\n    \"\"\"\n    return num1 + num2\n\n#",
+    "tags": [
+        "TypeHinting",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "TypeHinting",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

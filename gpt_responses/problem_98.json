@@ -1,0 +1,13 @@
+{
+    "id": "problem_98",
+    "description": "",
+    "code": "def upper(string):\n    \"\"\"\n    This function takes a string as an argument and returns the string with all characters in upper case.\n    \"\"\"\n    upper_string = \"\"\n    for char in string:\n        upper_string += char.upper()",
+    "tags": [
+        "upper",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "upper",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

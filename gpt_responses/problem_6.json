@@ -1,0 +1,13 @@
+{
+    "id": "problem_6",
+    "description": "",
+    "code": "# Program to generate a list of even numbers between 0 and 10 \n\neven_nums = [num for num in range(11) if num % 2 == 0] \nprint(even_nums)",
+    "tags": [
+        "Comprehension",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Comprehension",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

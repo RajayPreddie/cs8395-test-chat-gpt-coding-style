@@ -1,0 +1,13 @@
+{
+    "id": "problem_1",
+    "description": "",
+    "code": "# Create a list of numbers\nnums = [1, 2, 3, 4, 5]\n\n# Iterate over the list and print each item\nfor num in nums:\n  print(num)",
+    "tags": [
+        "list",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "list",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

@@ -1,0 +1,13 @@
+{
+    "id": "problem_43",
+    "description": "",
+    "code": "#This program will append a given list of numbers\n\nlist_of_numbers = [1,2,3,4,5]\n\n#This will append the number 6 to the list\nlist_of_numbers.append(6)\n\n#Print",
+    "tags": [
+        "append",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "append",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

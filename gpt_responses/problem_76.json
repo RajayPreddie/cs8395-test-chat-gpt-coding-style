@@ -1,0 +1,13 @@
+{
+    "id": "problem_76",
+    "description": "",
+    "code": "# This program will take a list of numbers as an input, and will return a new list with the last number in the list popped off.\n\ndef pop(nums):\n  if len(nums) == 0:\n    return None\n  else:",
+    "tags": [
+        "pop",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "pop",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

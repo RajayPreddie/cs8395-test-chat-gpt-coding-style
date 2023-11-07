@@ -1,0 +1,13 @@
+{
+    "id": "problem_82",
+    "description": "",
+    "code": "def replace(string, old, new):\n    \"\"\"\n    Replaces all occurrences of 'old' substring with 'new' substring in 'string'.\n\n    Args:\n        string (str): The source string.\n        old (str): The substring",
+    "tags": [
+        "replace",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "replace",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

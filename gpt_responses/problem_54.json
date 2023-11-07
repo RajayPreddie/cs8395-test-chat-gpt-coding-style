@@ -1,0 +1,13 @@
+{
+    "id": "problem_54",
+    "description": "",
+    "code": "def extend(list1, list2): \n    \"\"\" \n    This function will extend the list1 with list2 \n    \"\"\" \n  \n    # loop through the elements in list2 \n    for element in list2: \n  \n        #",
+    "tags": [
+        "extend",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "extend",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

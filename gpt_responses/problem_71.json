@@ -1,0 +1,13 @@
+{
+    "id": "problem_71",
+    "description": "",
+    "code": "import matplotlib.pyplot as plt\n\n# Create data\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 6, 8, 10]\n\n# Plot data\nplt.plot(x, y)",
+    "tags": [
+        "matplotlib",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "matplotlib",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

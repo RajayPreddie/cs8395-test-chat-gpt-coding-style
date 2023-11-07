@@ -1,0 +1,13 @@
+{
+    "id": "problem_47",
+    "description": "",
+    "code": "def copy(source, destination):\n    with open(source, 'r') as src:\n        with open(destination, 'w') as dest:\n            for line in src:\n                dest.write(line)\n\ncopy('source.txt', '",
+    "tags": [
+        "copy",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "copy",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

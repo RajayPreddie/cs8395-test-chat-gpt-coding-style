@@ -1,0 +1,13 @@
+{
+    "id": "problem_95",
+    "description": "",
+    "code": "import tensorflow as tf\n\n#Create a Constant\na = tf.constant(5.0, name=\"a\")\nb = tf.constant(10.0, name=\"b\")\n\n#Create a Variable\nx = tf.Variable(0",
+    "tags": [
+        "tensorflow",
+        "High",
+        "normal code"
+    ],
+    "keyword": "tensorflow",
+    "difficulty": "High",
+    "is_well_written_code": false
+}

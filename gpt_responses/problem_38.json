@@ -1,0 +1,13 @@
+{
+    "id": "problem_38",
+    "description": "",
+    "code": "# Program to demonstrate the use of tuples\n\n# Create a tuple\ntuple_example = (1, 2, 3, 4)\n\n# Print the tuple\nprint(\"The tuple is : \" + str(tuple_example))\n\n# Accessing elements",
+    "tags": [
+        "tuple",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "tuple",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

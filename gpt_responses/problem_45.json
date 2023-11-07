@@ -1,0 +1,13 @@
+{
+    "id": "problem_45",
+    "description": "",
+    "code": "def clear(): \n    print(\"Clearing the screen...\") \n    for i in range(50): \n        print(\"\\n\") \n\nclear()",
+    "tags": [
+        "clear",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "clear",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

@@ -1,0 +1,13 @@
+{
+    "id": "problem_36",
+    "description": "",
+    "code": "# Create a set of numbers\n\nnumbers = {1, 2, 3, 4, 5}\n\n# Iterate over the set\nfor num in numbers:\n  # Print each number\n  print(num)",
+    "tags": [
+        "set",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "set",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

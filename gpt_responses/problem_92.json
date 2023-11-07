@@ -1,0 +1,13 @@
+{
+    "id": "problem_92",
+    "description": "",
+    "code": "def strip_string(string):\n    \"\"\"\n    This function takes a string and removes all whitespace characters from the beginning and end of the string.\n    \"\"\"\n    # Initialize an empty string\n    stripped_string = \"\"\n\n    # Iterate through the characters",
+    "tags": [
+        "strip",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "strip",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

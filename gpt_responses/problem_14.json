@@ -1,0 +1,13 @@
+{
+    "id": "problem_14",
+    "description": "",
+    "code": "import collections\n\n# Create a new Deque\nmyDeque = collections.deque()\n\n# Add elements to the Deque\nmyDeque.append('a')\nmyDeque.append('b')\nmyDeque.append('c')",
+    "tags": [
+        "Deque",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Deque",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

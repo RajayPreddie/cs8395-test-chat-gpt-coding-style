@@ -1,0 +1,13 @@
+{
+    "id": "problem_86",
+    "description": "",
+    "code": "def set_default_value(dictionary, key, value):\n    \"\"\"\n    Sets the default value of a key in a dictionary if the key does not exist.\n    :param dictionary: The dictionary to modify.\n    :param key: The key to add or",
+    "tags": [
+        "setdefault",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "setdefault",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

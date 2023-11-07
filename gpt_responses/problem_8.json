@@ -1,0 +1,13 @@
+{
+    "id": "problem_8",
+    "description": "",
+    "code": "# Example Python Program using ContextManager\n\nclass ContextManagerExample:\n    def __enter__(self):\n        print(\"Entering the context manager\")\n        return self\n\n    def __exit__(self, exc_type, exc_val, exc_tb",
+    "tags": [
+        "ContextManager",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "ContextManager",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

@@ -1,0 +1,13 @@
+{
+    "id": "problem_24",
+    "description": "",
+    "code": "# This program uses the lambda keyword to return the sum of two numbers\n\nsum = lambda x, y : x + y \n\nprint(sum(2,3)) # Output: 5",
+    "tags": [
+        "Lambda",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Lambda",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

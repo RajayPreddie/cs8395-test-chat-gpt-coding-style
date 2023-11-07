@@ -1,0 +1,13 @@
+{
+    "id": "problem_37",
+    "description": "",
+    "code": "def my_function(my_string):\n  return str(my_string.upper())\n\nprint(my_function(\"Hello World!\"))",
+    "tags": [
+        "str",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "str",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

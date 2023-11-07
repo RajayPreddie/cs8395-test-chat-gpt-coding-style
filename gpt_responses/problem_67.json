@@ -1,0 +1,13 @@
+{
+    "id": "problem_67",
+    "description": "",
+    "code": "import json\n\n# Function to convert a JSON object to a Python dictionary\ndef json_to_dict(json_object):\n    return json.loads(json_object)\n\n# Function to convert a Python dictionary to a JSON object\ndef dict_to_json",
+    "tags": [
+        "json",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "json",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

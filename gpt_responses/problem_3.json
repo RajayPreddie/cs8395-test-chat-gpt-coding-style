@@ -1,0 +1,13 @@
+{
+    "id": "problem_3",
+    "description": "",
+    "code": "# Create a bytearray object from a string \nstr = \"Hello World!\" \nb = bytearray(str, 'utf-8') \n  \n# Print the bytearray \nprint(b)",
+    "tags": [
+        "bytearray",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "bytearray",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

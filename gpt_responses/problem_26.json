@@ -1,0 +1,13 @@
+{
+    "id": "problem_26",
+    "description": "",
+    "code": "# MemoryView Program\n# A program to demonstrate the use of Python's MemoryView\n\n# import the MemoryView module\nfrom array import array\nfrom sys import getsizeof\n\n# create an array of integers\narr = array('i', [1, 2, 3",
+    "tags": [
+        "MemoryView",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "MemoryView",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

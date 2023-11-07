@@ -1,0 +1,13 @@
+{
+    "id": "problem_35",
+    "description": "",
+    "code": "import json\n\ndata = {\n    'name': 'John Doe',\n    'age': 32,\n    'city': 'New York'\n}\n\n# Serialize the data\nserialized_data = json.dumps(data)\n\n# Print",
+    "tags": [
+        "Serialization",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "Serialization",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

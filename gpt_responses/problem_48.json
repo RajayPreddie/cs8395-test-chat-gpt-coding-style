@@ -1,0 +1,13 @@
+{
+    "id": "problem_48",
+    "description": "",
+    "code": "def count_elements(list_elements):\n  \"\"\"\n  This function takes a list of elements as an argument and returns the number of elements in the list.\n  \"\"\"\n  count = 0\n  for element in list_elements:\n    count +=",
+    "tags": [
+        "count",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "count",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

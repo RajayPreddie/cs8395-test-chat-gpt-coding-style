@@ -1,0 +1,13 @@
+{
+    "id": "problem_49",
+    "description": "",
+    "code": "import datetime\n\ncurrent_date = datetime.datetime.now()\n\nprint(\"Today's date is:\", current_date.strftime(\"%d/%m/%Y\"))",
+    "tags": [
+        "datetime",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "datetime",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

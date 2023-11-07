@@ -1,0 +1,13 @@
+{
+    "id": "problem_69",
+    "description": "",
+    "code": "def lower_string(string):\n  lower_string = \"\"\n  for character in string:\n    if ord(character) >= 65 and ord(character) <= 90:\n      lower_string += chr(ord(character) + 32)\n    else:",
+    "tags": [
+        "lower",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "lower",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

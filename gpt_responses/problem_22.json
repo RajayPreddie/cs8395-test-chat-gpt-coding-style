@@ -1,0 +1,13 @@
+{
+    "id": "problem_22",
+    "description": "",
+    "code": "# Python Program for Introspection\n\n# Importing the necessary modules\nimport inspect\n\n# Define a function to print the introspection of an object\ndef print_introspection(obj):\n  # Get the introspection of the object\n  introspection = inspect",
+    "tags": [
+        "Introspection",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Introspection",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

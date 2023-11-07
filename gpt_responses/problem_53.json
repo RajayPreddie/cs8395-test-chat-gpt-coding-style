@@ -1,0 +1,13 @@
+{
+    "id": "problem_53",
+    "description": "",
+    "code": "# This program checks if a string ends with a certain string\n\ndef endswith(s, suffix):\n  if s.endswith(suffix):\n    return True\n  else:\n    return False\n\n# Main program\n\nstr = input(\"",
+    "tags": [
+        "endswith",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "endswith",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

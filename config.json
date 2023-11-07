@@ -1,0 +1,7 @@
+{
+  "name": "ChatGPT Code Style Tester",
+  "model": "openai-latest",
+  "run_test": "python3 main.py",
+  "run_score": "",
+  "tags": []
+}

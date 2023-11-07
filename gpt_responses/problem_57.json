@@ -1,0 +1,13 @@
+{
+    "id": "problem_57",
+    "description": "",
+    "code": "def format_string(string):\n    \"\"\"\n    This function takes a string and formats it by \n    capitalizing the first letter of each word and \n    removing any whitespace.\n    \"\"\"\n    words = string.split()\n    formatted_words =",
+    "tags": [
+        "format",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "format",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

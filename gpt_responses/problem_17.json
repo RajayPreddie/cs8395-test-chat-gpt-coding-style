@@ -1,0 +1,13 @@
+{
+    "id": "problem_17",
+    "description": "",
+    "code": "def GarbageCollection(): \n  print(\"Starting garbage collection...\") \n  garbage_list = [] \n  for item in range(5): \n    garbage_list.append(input(\"Enter item to add to garbage list: \")) \n  print",
+    "tags": [
+        "GarbageCollection",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "GarbageCollection",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

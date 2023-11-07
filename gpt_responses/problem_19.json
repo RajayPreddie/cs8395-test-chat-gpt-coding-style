@@ -1,0 +1,13 @@
+{
+    "id": "problem_19",
+    "description": "",
+    "code": "# Global state\n\nmy_list = []\n\ndef add_to_list(item):\n  my_list.append(item)\n\ndef remove_from_list(item):\n  my_list.remove(item)\n\ndef print_list",
+    "tags": [
+        "Global state",
+        "Low",
+        "normal code"
+    ],
+    "keyword": "Global state",
+    "difficulty": "Low",
+    "is_well_written_code": false
+}

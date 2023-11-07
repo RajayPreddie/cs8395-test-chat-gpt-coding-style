@@ -1,0 +1,13 @@
+{
+    "id": "problem_73",
+    "description": "",
+    "code": "#import numpy library\nimport numpy as np\n\n#create a vector of 10 random numbers\nvector = np.random.randint(1, 10, 10)\n\n#create a matrix of 5 rows and 5 columns\nmatrix = np.random.rand",
+    "tags": [
+        "numpy",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "numpy",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

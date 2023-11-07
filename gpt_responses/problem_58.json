@@ -1,0 +1,13 @@
+{
+    "id": "problem_58",
+    "description": "",
+    "code": "# Create a dictionary with the fromkeys() function\nmy_dict = dict.fromkeys(['name', 'age', 'country'], \"Unknown\")\n\n# Print the dictionary\nprint(my_dict)\n\n# Update the dictionary values\nmy_dict['",
+    "tags": [
+        "fromkeys",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "fromkeys",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

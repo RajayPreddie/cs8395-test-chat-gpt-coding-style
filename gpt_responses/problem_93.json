@@ -1,0 +1,13 @@
+{
+    "id": "problem_93",
+    "description": "",
+    "code": "import subprocess\n\ndef main():\n    # Define a string containing a command to be executed\n    cmd = 'ls -l'\n\n    # Execute the command and store the output\n    output = subprocess.check_output(cmd, shell=True)",
+    "tags": [
+        "subprocess",
+        "High",
+        "normal code"
+    ],
+    "keyword": "subprocess",
+    "difficulty": "High",
+    "is_well_written_code": false
+}

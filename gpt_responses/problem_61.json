@@ -1,0 +1,13 @@
+{
+    "id": "problem_61",
+    "description": "",
+    "code": "def insert(list1, list2, index): \n    list1[index:index] = list2 \n    return list1 \n  \nlist1 = [1, 2, 3, 4, 5] \nlist2 = [6, 7]",
+    "tags": [
+        "insert",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "insert",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

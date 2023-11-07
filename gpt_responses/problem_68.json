@@ -1,0 +1,13 @@
+{
+    "id": "problem_68",
+    "description": "",
+    "code": "# Program to find the keys in a given dictionary\n\n# Define a function\ndef find_keys(dictionary):\n    # Create an empty list to store the keys\n    keys = []\n    # Iterate over the dictionary\n    for key in dictionary:",
+    "tags": [
+        "keys",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "keys",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

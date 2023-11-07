@@ -1,0 +1,13 @@
+{
+    "id": "problem_20",
+    "description": "",
+    "code": "import heapq\n\ndef get_kth_smallest(nums, k):\n    heapq.heapify(nums)\n    for _ in range(k-1):\n        heapq.heappop(nums)\n    return heap",
+    "tags": [
+        "heapq",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "heapq",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

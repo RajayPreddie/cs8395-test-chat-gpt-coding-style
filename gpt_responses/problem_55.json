@@ -1,0 +1,13 @@
+{
+    "id": "problem_55",
+    "description": "",
+    "code": "def find(x):\n  for i in range(len(x)):\n    if x[i] == 'find':\n      return i\n  return -1\n\n# Test\nx = ['hello', 'world', 'find', 'this']\nprint",
+    "tags": [
+        "find",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "find",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

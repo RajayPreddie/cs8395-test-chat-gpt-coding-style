@@ -1,0 +1,13 @@
+{
+    "id": "problem_10",
+    "description": "",
+    "code": "import collections \n\n# Create a counter object\ncounter = collections.Counter() \n\n# Iterate over the list and increment the counter\nfor item in list_of_items: \n    counter[item] += 1 \n\n# Print the counter\nprint",
+    "tags": [
+        "Counter",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Counter",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

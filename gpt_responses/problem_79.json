@@ -1,0 +1,13 @@
+{
+    "id": "problem_79",
+    "description": "",
+    "code": "import random\n\ndef random_list(length):\n  my_list = []\n  for i in range(length):\n    my_list.append(random.randint(1,100))\n  return my_list\n\nlength = int(input(\"",
+    "tags": [
+        "random",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "random",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

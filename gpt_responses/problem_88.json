@@ -1,0 +1,13 @@
+{
+    "id": "problem_88",
+    "description": "",
+    "code": "import socket\n\n# Create a TCP/IP socket\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Connect the socket to the port where the server is listening\nserver_address = ('localhost', 10000)",
+    "tags": [
+        "socket",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "socket",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

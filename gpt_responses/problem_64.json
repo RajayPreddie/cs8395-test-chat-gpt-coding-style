@@ -1,0 +1,13 @@
+{
+    "id": "problem_64",
+    "description": "",
+    "code": "def isSuperset(set1, set2):\n    \"\"\"\n    This function takes two sets and returns True if set1 is a superset of set2\n    \"\"\"\n    if set1.issuperset(set2):\n        return True",
+    "tags": [
+        "issuperset",
+        "Medium",
+        "well-written code"
+    ],
+    "keyword": "issuperset",
+    "difficulty": "Medium",
+    "is_well_written_code": true
+}

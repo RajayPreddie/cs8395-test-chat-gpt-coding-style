@@ -1,0 +1,13 @@
+{
+    "id": "problem_32",
+    "description": "",
+    "code": "#Polymorphism in Python\n\n#Define a base class\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n\n#Define subclasses\nclass Dog(Animal):\n    def __init__(self,",
+    "tags": [
+        "Polymorphism",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Polymorphism",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

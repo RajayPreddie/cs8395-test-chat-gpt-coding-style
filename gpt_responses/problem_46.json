@@ -1,0 +1,13 @@
+{
+    "id": "problem_46",
+    "description": "",
+    "code": "import collections\n\n# Create a list of integers\nnumbers = [1,2,3,4,5]\n\n# Create a Counter object from the numbers list\ncounter = collections.Counter(numbers)\n\n# Print the Counter object\nprint(counter)",
+    "tags": [
+        "collections",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "collections",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

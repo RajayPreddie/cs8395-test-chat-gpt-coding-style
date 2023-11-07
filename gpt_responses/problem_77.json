@@ -1,0 +1,13 @@
+{
+    "id": "problem_77",
+    "description": "",
+    "code": "myDict = {\n    \"name\": \"John Doe\",\n    \"age\": 34,\n    \"job\": \"Software Engineer\"\n}\n\n# Use popitem() to remove the last item in the dictionary\nmyDict.popitem()\n\n#",
+    "tags": [
+        "popitem",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "popitem",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

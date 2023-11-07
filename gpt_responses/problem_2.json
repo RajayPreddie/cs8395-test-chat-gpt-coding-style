@@ -1,0 +1,13 @@
+{
+    "id": "problem_2",
+    "description": "",
+    "code": "import asyncio\n\nasync def main():\n    print(\"Hello World!\")\n\nasyncio.run(main())",
+    "tags": [
+        "asyncio",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "asyncio",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

@@ -1,0 +1,13 @@
+{
+    "id": "problem_90",
+    "description": "",
+    "code": "def split_string(string): \n    '''\n    This function takes a string as an argument and returns a list of strings \n    that are split up based on the spaces in the string.\n    \n    Parameters: \n        string (str): The string",
+    "tags": [
+        "split",
+        "High",
+        "well-written code"
+    ],
+    "keyword": "split",
+    "difficulty": "High",
+    "is_well_written_code": true
+}

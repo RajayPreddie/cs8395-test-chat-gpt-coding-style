@@ -1,0 +1,13 @@
+{
+    "id": "problem_63",
+    "description": "",
+    "code": "# Create a function to check if a set is a subset of another set\ndef isSubset(set1, set2):\n  # Check if all elements of set1 are present in set2\n  for element in set1:\n    if element not in set2",
+    "tags": [
+        "issubset",
+        "Medium",
+        "normal code"
+    ],
+    "keyword": "issubset",
+    "difficulty": "Medium",
+    "is_well_written_code": false
+}

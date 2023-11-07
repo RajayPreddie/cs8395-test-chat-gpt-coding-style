@@ -1,0 +1,13 @@
+{
+    "id": "problem_18",
+    "description": "",
+    "code": "def generator():\n    for i in range(10):\n        yield i\n\nfor i in generator():\n    print(i)",
+    "tags": [
+        "Generator",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "Generator",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}

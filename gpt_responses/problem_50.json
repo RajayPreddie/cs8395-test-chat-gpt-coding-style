@@ -1,0 +1,13 @@
+{
+    "id": "problem_50",
+    "description": "",
+    "code": "def difference(a, b):\n  return abs(a - b)\n\nprint(difference(10, 5)) # prints 5",
+    "tags": [
+        "difference",
+        "Low",
+        "well-written code"
+    ],
+    "keyword": "difference",
+    "difficulty": "Low",
+    "is_well_written_code": true
+}
