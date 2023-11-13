@@ -1,13 +1,13 @@
 {
     "id": "problem_29",
     "description": "",
-    "code": "from collections import namedtuple \n\n# create a namedtuple \nPoint = namedtuple('Point', 'x y') \n\n# create a point \np1 = Point(1, 2) \n\n# print the point \nprint(",
+    "code": "from collections import namedtuple\n\n# Create a namedtuple called \"Student\"\nStudent = namedtuple('Student', ['name', 'grade', 'age'])\n\n# Initialize a list of students\nstudents = []\n\n# Create a student named John\njohn = Student('John', 'A', 18)\n\n# Append John to the list of students\nstudents.append(john)\n\n# Create a student named Mary\nmary = Student('Mary', 'B', 19)\n\n# Append Mary to the list of students\nstudents.append(mary)\n\n# Print out the list of students\nfor student in students:\n    print(student)",
     "tags": [
         "NamedTuple",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "NamedTuple",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "NamedTuple"
+    ],
+    "difficulty": "Easy"
 }

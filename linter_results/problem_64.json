@@ -1,5 +1,40 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmphyl9o45y.py": 1
+        "violations": {
+            "W291 trailing whitespace": 11,
+            "W293 blank line contains whitespace": 1,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 14,
+        "most_frequent_violation": {
+            "violation_type": "W291 trailing whitespace",
+            "frequency": 11
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 12,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1,
+            "Redefining name 'superset' from outer scope (line 9) (redefined-outer-name)": 1,
+            "Redefining name 'subset' from outer scope (line 10) (redefined-outer-name)": 1
+        },
+        "total_violations": 17,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 12
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

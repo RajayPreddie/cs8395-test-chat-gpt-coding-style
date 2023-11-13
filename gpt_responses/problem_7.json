@@ -1,13 +1,13 @@
 {
     "id": "problem_7",
     "description": "",
-    "code": "# This program demonstrates concurrency in Python by \n# creating two threads that execute a simple function \n# simultaneously.\n\nimport threading\n\n# Define a function that prints the thread name\ndef print_thread_name():\n    print(threading.current",
+    "code": "# This program will demonstrate how to use concurrent processes in Python\n\nfrom multiprocessing import Process\n\ndef square_numbers(numbers):\n    result = []\n    for i in numbers:\n        result.append(i*i)\n    return result\n\nif __name__ == \"__main__\":\n    numbers = [2, 3, 5, 7, 11]\n    p1 = Process(target=square_numbers, args=(numbers,))\n    p1.start()\n    p1.join()\n\n    print(p1.result)",
     "tags": [
         "Concurrency",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Concurrency",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Concurrency"
+    ],
+    "difficulty": "Easy"
 }

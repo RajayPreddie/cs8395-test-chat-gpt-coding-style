@@ -1,5 +1,38 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpz53clcum.py": 1
+        "violations": {
+            "E265 block comment should start with '# '": 5,
+            "W291 trailing whitespace": 4,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 11,
+        "most_frequent_violation": {
+            "violation_type": "E265 block comment should start with '# '",
+            "frequency": 5
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 4,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1
+        },
+        "total_violations": 7,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 4
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

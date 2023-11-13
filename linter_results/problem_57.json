@@ -1,5 +1,34 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmphnon3slu.py": 1
+        "violations": {
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "W292 no newline at end of file",
+            "frequency": 1
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Formatting a regular string which could be an f-string (consider-using-f-string)": 1
+        },
+        "total_violations": 3,
+        "most_frequent_violation": {
+            "violation_type": "Formatting a regular string which could be an f-string (consider-using-f-string)",
+            "frequency": 1
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

@@ -1,13 +1,13 @@
 {
     "id": "problem_23",
     "description": "",
-    "code": "# Program to evaluate an expression\n\nexpression = input(\"Enter an expression: \")\n\n# Evaluate the expression\nresult = eval(expression)\n\n# Print the result\nprint(\"Result:\", result)",
+    "code": "# This program takes an expression as input and evaluates the expression\n\n# Define a function to evaluate the expression\ndef evaluate_expression(expression):\n  # Use the eval() function to evaluate the expression\n  return eval(expression)\n\n# Get input from the user\nexpression = input(\"Please enter an expression: \")\n\n# Evaluate the expression\nresult = evaluate_expression(expression)\n\n# Print the result\nprint(\"Result:\", result)",
     "tags": [
         "Keyword expression",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Keyword expression",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Keyword expression"
+    ],
+    "difficulty": "Easy"
 }

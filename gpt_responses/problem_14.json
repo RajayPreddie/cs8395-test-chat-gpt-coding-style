@@ -1,13 +1,13 @@
 {
     "id": "problem_14",
     "description": "",
-    "code": "import collections\n\n# Create a new Deque\nmyDeque = collections.deque()\n\n# Add elements to the Deque\nmyDeque.append('a')\nmyDeque.append('b')\nmyDeque.append('c')",
+    "code": "# Create a deque\n\ndeque = collections.deque()\n\n# Add elements to the deque\n\ndeque.append('a')\ndeque.append('b')\ndeque.append('c')\n\n# Print the deque\n\nprint(deque)\n\n# Remove elements from the deque\n\ndeque.pop()\ndeque.popleft()\n\n# Print the deque\n\nprint(deque)",
     "tags": [
         "Deque",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Deque",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Deque"
+    ],
+    "difficulty": "Easy"
 }

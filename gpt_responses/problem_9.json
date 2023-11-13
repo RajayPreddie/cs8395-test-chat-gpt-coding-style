@@ -1,13 +1,13 @@
 {
     "id": "problem_9",
     "description": "",
-    "code": "def coroutine(func):\n    def start(*args,**kwargs):\n        cr = func(*args,**kwargs)\n        cr.__next__()\n        return cr\n    return start\n\n@coroutine\ndef printer():\n    while True",
+    "code": "def coroutine(func):\n    def start(*args, **kwargs):\n        cr = func(*args, **kwargs)\n        cr.__next__()\n        return cr\n    return start\n\n@coroutine\ndef printer():\n    while True:\n        line = yield\n        print(line)\n\nprinter = printer()\nprinter.send('Hello World!')",
     "tags": [
         "Coroutine",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Coroutine",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Coroutine"
+    ],
+    "difficulty": "Easy"
 }

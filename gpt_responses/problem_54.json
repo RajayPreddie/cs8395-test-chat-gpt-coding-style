@@ -1,13 +1,15 @@
 {
     "id": "problem_54",
     "description": "",
-    "code": "def extend(list1, list2): \n    \"\"\" \n    This function will extend the list1 with list2 \n    \"\"\" \n  \n    # loop through the elements in list2 \n    for element in list2: \n  \n        #",
+    "code": "# Program to extend and find a list\n\nlist1 = [1, 2, 3, 4, 5]\n\n# Function to extend a list\ndef extend_list(list1):\n   list1.append(6)\n   list1.append(7)\n   return list1\n\n# Function to find an item in a list\ndef find_item(list1, item):\n   for i in list1:\n      if i == item:\n         return True\n   return False\n\n# Call the extend_list function\nlist1 = extend_list(list1)\n\n# Call the find_item function\nfound = find_item(list1, 7)\n\n# Print the result\nif found:\n   print(\"Item found in the list\")\nelse:\n   print(\"Item not found in the list\")",
     "tags": [
         "extend",
-        "Medium",
-        "well-written code"
+        "find",
+        "Medium"
     ],
-    "keyword": "extend",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "extend",
+        "find"
+    ],
+    "difficulty": "Medium"
 }

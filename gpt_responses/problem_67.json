@@ -1,13 +1,15 @@
 {
     "id": "problem_67",
     "description": "",
-    "code": "import json\n\n# Function to convert a JSON object to a Python dictionary\ndef json_to_dict(json_object):\n    return json.loads(json_object)\n\n# Function to convert a Python dictionary to a JSON object\ndef dict_to_json",
+    "code": "# This program takes in a JSON file and prints out the keys\n\nimport json\n\n# Open the JSON file and read it\nwith open('data.json') as json_file:\n    data = json.load(json_file)\n\n# Iterate through the data and print out the keys\nfor key in data.keys():\n    print(key)",
     "tags": [
         "json",
-        "Medium",
-        "normal code"
+        "keys",
+        "Medium"
     ],
-    "keyword": "json",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "json",
+        "keys"
+    ],
+    "difficulty": "Medium"
 }

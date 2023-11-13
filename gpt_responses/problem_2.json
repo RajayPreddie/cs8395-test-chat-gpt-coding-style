@@ -1,13 +1,13 @@
 {
     "id": "problem_2",
     "description": "",
-    "code": "import asyncio\n\nasync def main():\n    print(\"Hello World!\")\n\nasyncio.run(main())",
+    "code": "import asyncio\n\nasync def main():\n    print(\"Hello World!\")\n\nif __name__ == \"__main__\":\n    loop = asyncio.get_event_loop()\n    loop.run_until_complete(main())\n    loop.close()",
     "tags": [
         "asyncio",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "asyncio",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "asyncio"
+    ],
+    "difficulty": "Easy"
 }

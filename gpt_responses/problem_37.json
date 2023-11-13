@@ -1,13 +1,13 @@
 {
     "id": "problem_37",
     "description": "",
-    "code": "def my_function(my_string):\n  return str(my_string.upper())\n\nprint(my_function(\"Hello World!\"))",
+    "code": "# Program to check if a string is a palindrome\n\n# Function to check if a string is a palindrome\ndef is_palindrome(string):\n  # Reverse the string\n  rev_str = string[::-1]\n  # Check if the string is equal to its reverse\n  if (string == rev_str):\n    return True\n  return False\n\n# Main function\ndef main():\n  # Get the string from the user\n  string = input('Please enter a string: ')\n  # Call the is_palindrome function\n  ans = is_palindrome(string)\n  # Print the result\n  if ans:\n    print('The string is a palindrome')\n  else:\n    print('The string is not a palindrome')\n\n# Run the main function\nif __name__ == '__main__':\n  main()",
     "tags": [
         "str",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "str",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "str"
+    ],
+    "difficulty": "Easy"
 }

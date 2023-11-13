@@ -1,13 +1,13 @@
 {
     "id": "problem_25",
     "description": "",
-    "code": "def memoize(f):\n  memo = {}\n  def helper(x):\n    if x not in memo:            \n      memo[x] = f(x)\n    return memo[x]\n  return helper\n\n@memoize\ndef fib",
+    "code": "# Memoization Program \n\n# Create an empty cache \ncache = {} \n\n# Create a function to find the nth Fibonacci number \ndef fibonacci(n): \n  # Check cache for stored values \n  if n in cache: \n    return cache[n] \n  # Base cases \n  if n == 1: \n    value = 0 \n  elif n == 2: \n    value = 1 \n  # Recursive cases \n  elif n > 2: \n    value = fibonacci(n-1) + fibonacci(n-2)  \n  # Store value in cache and return \n  cache[n] = value \n  return value \n\n# Call the function \nprint(fibonacci(10))",
     "tags": [
         "Memoization",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Memoization",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Memoization"
+    ],
+    "difficulty": "Easy"
 }

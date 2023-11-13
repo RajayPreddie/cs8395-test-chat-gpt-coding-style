@@ -1,13 +1,15 @@
 {
     "id": "problem_65",
     "description": "",
-    "code": "items = [\"Apple\", \"Orange\", \"Banana\", \"Grapes\"]\n\ndef get_items(items):\n    for item in items:\n        print(item)\n\nget_items(items)",
+    "code": "# This program takes a list of items and joins them together\n# into a single string\n\nlist_items = [\"apple\", \"banana\", \"cherry\"]\n\n# join the items together\njoined_items = \" \".join(list_items)\n\n# print the joined items\nprint(joined_items)",
     "tags": [
         "items",
-        "Medium",
-        "normal code"
+        "join",
+        "Medium"
     ],
-    "keyword": "items",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "items",
+        "join"
+    ],
+    "difficulty": "Medium"
 }

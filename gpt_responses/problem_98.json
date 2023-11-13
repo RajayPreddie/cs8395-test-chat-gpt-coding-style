@@ -1,13 +1,15 @@
 {
     "id": "problem_98",
     "description": "",
-    "code": "def upper(string):\n    \"\"\"\n    This function takes a string as an argument and returns the string with all characters in upper case.\n    \"\"\"\n    upper_string = \"\"\n    for char in string:\n        upper_string += char.upper()",
+    "code": "import asyncio\n\nasync def main():\n    text = input(\"Please enter a string: \")\n    print(text.upper())\n\nasyncio.run(main())",
     "tags": [
         "upper",
-        "High",
-        "well-written code"
+        "asyncio",
+        "Hard"
     ],
-    "keyword": "upper",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "upper",
+        "asyncio"
+    ],
+    "difficulty": "Hard"
 }

@@ -1,5 +1,46 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpfy7agqke.py": 12
+        "violations": {
+            "F401 'django' imported but unused": 1,
+            "E302 expected 2 blank lines, found 1": 1,
+            "E501 line too long (80 > 79 characters)": 1,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 5,
+        "most_frequent_violation": {
+            "violation_type": "W292 no newline at end of file",
+            "frequency": 1
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Unable to import 'django' (import-error)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1,
+            "Redefining name 'string' from outer scope (line 17) (redefined-outer-name)": 1,
+            "Redefining name 'substring' from outer scope (line 20) (redefined-outer-name)": 1,
+            "The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)": 1,
+            "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it (no-else-return)": 1,
+            "Constant name \"result\" doesn't conform to UPPER_CASE naming style (invalid-name)": 1,
+            "Comparison 'result == True' should be 'result is True' if checking for the singleton value True, or 'result' if testing for truthiness (singleton-comparison)": 1,
+            "Unused import django (unused-import)": 1
+        },
+        "total_violations": 11,
+        "most_frequent_violation": {
+            "violation_type": "Unused import django (unused-import)",
+            "frequency": 1
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

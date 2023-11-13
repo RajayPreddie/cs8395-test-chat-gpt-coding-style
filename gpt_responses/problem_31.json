@@ -1,13 +1,13 @@
 {
     "id": "problem_31",
     "description": "",
-    "code": "from collections import OrderedDict \n\n# Create an empty OrderedDict \nmy_dict = OrderedDict() \n\n# Add key-value pairs to the OrderedDict \nmy_dict['name'] = 'John'\nmy",
+    "code": "from collections import OrderedDict \n\n# Create a dictionary of items and prices \nitems = { \n    'apple': 0.50, \n    'banana': 0.45, \n    'orange': 0.60\n} \n  \n# Create an OrderedDict from the dictionary \nitems_ordered = OrderedDict(sorted(items.items(), key=lambda t: t[0])) \n  \n# Print the OrderedDict \nfor key, value in items_ordered.items(): \n    print(key, value) \n\n# Output: \n# apple 0.50\n# banana 0.45\n# orange 0.60",
     "tags": [
         "OrderedDict",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "OrderedDict",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "OrderedDict"
+    ],
+    "difficulty": "Easy"
 }

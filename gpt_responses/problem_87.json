@@ -1,13 +1,15 @@
 {
     "id": "problem_87",
     "description": "",
-    "code": "#importing the necessary packages\nimport numpy as np\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.neighbors import KNeighborsClassifier\n\n#creating the dataset",
+    "code": "import sklearn\nfrom sklearn.utils import shuffle\n\n# Create a list of numbers\nnumbers = [1,2,3,4,5,6,7,8,9,10]\n\n# Shuffle the list\nshuffled_numbers = shuffle(numbers)\n\n# Sort the list\nsorted_numbers = sorted(shuffled_numbers)\n\n# Print the sorted list\nprint(sorted_numbers)",
     "tags": [
         "sklearn",
-        "High",
-        "normal code"
+        "sort",
+        "Hard"
     ],
-    "keyword": "sklearn",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "sklearn",
+        "sort"
+    ],
+    "difficulty": "Hard"
 }

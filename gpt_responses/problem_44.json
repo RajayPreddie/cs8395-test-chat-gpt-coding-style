@@ -1,13 +1,13 @@
 {
     "id": "problem_44",
     "description": "",
-    "code": "def capitalize(string):\n  return string.title()\n\nprint(capitalize(\"hello world\"))",
+    "code": "# This program capitalizes the first letter of a given string\n\ndef capitalize(string): \n  return string[0].upper() + string[1:]\n\nstring = input(\"Enter a string: \")\n\nprint(capitalize(string))",
     "tags": [
         "capitalize",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "capitalize",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "capitalize"
+    ],
+    "difficulty": "Easy"
 }

@@ -1,13 +1,15 @@
 {
     "id": "problem_81",
     "description": "",
-    "code": "def remove(list, item):\n    new_list = []\n    for i in list:\n        if i != item:\n            new_list.append(i)\n    return new_list\n\nlist = [1, 2, 3, 4, 5",
+    "code": "import requests\n\ndef remove_url_parameters(url):\n  parsed_url = requests.urllib3.util.parse_url(url)\n  parsed_url.query = None\n  return parsed_url.geturl()\n\nprint(remove_url_parameters(\"https://www.example.com?param1=value1&param2=value2\"))",
     "tags": [
         "remove",
-        "High",
-        "normal code"
+        "requests",
+        "Hard"
     ],
-    "keyword": "remove",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "remove",
+        "requests"
+    ],
+    "difficulty": "Hard"
 }

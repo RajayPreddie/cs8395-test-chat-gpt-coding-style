@@ -1,13 +1,13 @@
 {
     "id": "problem_4",
     "description": "",
-    "code": "def bytes_to_string(data):\n    \"\"\"Convert a bytes object to a string.\n\n    Args:\n        data (bytes): The data to convert.\n\n    Returns:\n        str: The data as a string.\n    \"\"\"\n    return data",
+    "code": "# Program to convert bytes to megabytes\n\n# Declare the input variable\nbytes = int(input(\"Enter the number of bytes to convert to megabytes: \"))\n\n# Calculate megabytes\nmegabytes = bytes / 1048576\n\n# Print the output\nprint(f\"{bytes} bytes is equal to {megabytes} megabytes\")",
     "tags": [
         "bytes",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "bytes",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "bytes"
+    ],
+    "difficulty": "Easy"
 }

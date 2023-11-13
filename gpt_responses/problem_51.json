@@ -1,13 +1,15 @@
 {
     "id": "problem_51",
     "description": "",
-    "code": "#Discard Program\n\n#This program will take a list of numbers as input and will discard any numbers that are negative.\n\n#Create a function to discard negative numbers\ndef discard_negatives(numbers):\n    #Create a new list to store the positive numbers",
+    "code": "# Program to discard Django objects\n\nimport django\n\n# Establish connection to Django\ndjango.setup()\n\n# Get a list of Django objects\nobjects = django.get_objects()\n\n# Iterate through the list of objects\nfor obj in objects:\n    # Discard the object if it is not needed\n    if not obj.needed:\n        obj.discard()",
     "tags": [
         "discard",
-        "Medium",
-        "normal code"
+        "django",
+        "Medium"
     ],
-    "keyword": "discard",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "discard",
+        "django"
+    ],
+    "difficulty": "Medium"
 }

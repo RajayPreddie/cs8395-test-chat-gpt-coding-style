@@ -1,5 +1,41 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpa5l1gp6x.py": 3
+        "violations": {
+            "E114 indentation is not a multiple of 4 (comment)": 5,
+            "E111 indentation is not a multiple of 4": 8,
+            "E302 expected 2 blank lines, found 1": 1,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 16,
+        "most_frequent_violation": {
+            "violation_type": "E111 indentation is not a multiple of 4",
+            "frequency": 8
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Bad indentation. Found 2 spaces, expected 4 (bad-indentation)": 8,
+            "Unnecessary parens after 'if' keyword (superfluous-parens)": 1,
+            "Bad indentation. Found 4 spaces, expected 8 (bad-indentation)": 3,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 2
+        },
+        "total_violations": 16,
+        "most_frequent_violation": {
+            "violation_type": "Bad indentation. Found 2 spaces, expected 4 (bad-indentation)",
+            "frequency": 8
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

@@ -1,13 +1,15 @@
 {
     "id": "problem_55",
     "description": "",
-    "code": "def find(x):\n  for i in range(len(x)):\n    if x[i] == 'find':\n      return i\n  return -1\n\n# Test\nx = ['hello', 'world', 'find', 'this']\nprint",
+    "code": "import flask\n\n@app.route('/find')\ndef find():\n    # code to find what the user is looking for\n    return result",
     "tags": [
         "find",
-        "Medium",
-        "normal code"
+        "flask",
+        "Medium"
     ],
-    "keyword": "find",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "find",
+        "flask"
+    ],
+    "difficulty": "Medium"
 }

@@ -1,13 +1,15 @@
 {
     "id": "problem_88",
     "description": "",
-    "code": "import socket\n\n# Create a TCP/IP socket\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Connect the socket to the port where the server is listening\nserver_address = ('localhost', 10000)",
+    "code": "import socket\n\nhost = socket.gethostname()\n\nport = 8080\n\ns = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\ns.bind((host, port))\n\ns.listen(1)\n\nprint(\"Server is waiting for incoming connections\")\n\nconn, addr = s.accept()\n\nprint(\"Connected by\", addr)\n\nwhile True:\n    data = conn.recv(1024).decode()\n    if not data:\n        break\n    data_list = data.split(',')\n    result = int(data_list[0]) + int(data_list[1])\n    conn.sendall(str(result).encode())\n\nconn.close()",
     "tags": [
         "socket",
-        "High",
-        "well-written code"
+        "split",
+        "Hard"
     ],
-    "keyword": "socket",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "socket",
+        "split"
+    ],
+    "difficulty": "Hard"
 }

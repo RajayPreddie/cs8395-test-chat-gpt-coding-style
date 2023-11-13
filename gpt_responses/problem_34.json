@@ -1,13 +1,13 @@
 {
     "id": "problem_34",
     "description": "",
-    "code": "def reflection(x):\n    \"\"\"\n    Function to reflect the value of the input\n    \n    Parameters:\n    x (int): input value\n    \n    Returns:\n    int: reflected value\n    \"\"\"\n    return x * -1\n\n# Test",
+    "code": "# This program will allow the user to input a string and then print the string with the first and last characters reversed \n\nuser_input = input(\"Please enter a string: \")\n\nreversed_string = user_input[-1] + user_input[1:-1] + user_input[0]\n\nprint(\"The reversed string is: \" + reversed_string)",
     "tags": [
         "Reflection",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Reflection",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Reflection"
+    ],
+    "difficulty": "Easy"
 }

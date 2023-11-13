@@ -1,13 +1,15 @@
 {
     "id": "problem_64",
     "description": "",
-    "code": "def isSuperset(set1, set2):\n    \"\"\"\n    This function takes two sets and returns True if set1 is a superset of set2\n    \"\"\"\n    if set1.issuperset(set2):\n        return True",
+    "code": "# Create a function to check if one set is a superset of another \ndef issuperset(superset, subset): \n    for item in subset: \n        if item not in superset: \n            return False\n    return True\n  \n# Driver code \nsuperset = {1, 2, 3, 4, 5} \nsubset = {2, 3, 5} \n\n# Check if superset contains subset or not \nif issuperset(superset, subset): \n    print(\"superset is a superset of subset\") \nelse: \n    print(\"superset is not a superset of subset\")",
     "tags": [
         "issuperset",
-        "Medium",
-        "well-written code"
+        "items",
+        "Medium"
     ],
-    "keyword": "issuperset",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "issuperset",
+        "items"
+    ],
+    "difficulty": "Medium"
 }

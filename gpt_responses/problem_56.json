@@ -1,13 +1,15 @@
 {
     "id": "problem_56",
     "description": "",
-    "code": "from flask import Flask\n\napp = Flask(__name__)\n\n@app.route('/')\ndef hello_world():\n    return 'Hello, World!'\n\nif __name__ == '__main__':\n    app.run()",
+    "code": "# Import Flask Library\nfrom flask import Flask\n\n# Create an instance of Flask\napp = Flask(__name__)\n\n# Define a route\n@app.route('/')\n\n# Define a function\ndef home():\n\n# Format a string\n    return 'Welcome to the Flask Homepage!'\n\n# Execute the program\nif __name__ == '__main__':\n    app.run()",
     "tags": [
         "flask",
-        "Medium",
-        "well-written code"
+        "format",
+        "Medium"
     ],
-    "keyword": "flask",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "flask",
+        "format"
+    ],
+    "difficulty": "Medium"
 }

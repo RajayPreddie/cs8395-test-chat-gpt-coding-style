@@ -1,5 +1,43 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpvs52ivl8.py": 1
+        "violations": {
+            "E302 expected 2 blank lines, found 1": 4,
+            "E501 line too long (84 > 79 characters)": 1,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 7,
+        "most_frequent_violation": {
+            "violation_type": "E302 expected 2 blank lines, found 1",
+            "frequency": 4
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 4,
+            "The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)": 1,
+            "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it (no-else-return)": 2,
+            "Redefining name 'input_file_path' from outer scope (line 32) (redefined-outer-name)": 1,
+            "Redefining name 'output_file_path' from outer scope (line 33) (redefined-outer-name)": 1,
+            "Constant name \"input_file_path\" doesn't conform to UPPER_CASE naming style (invalid-name)": 1,
+            "Constant name \"output_file_path\" doesn't conform to UPPER_CASE naming style (invalid-name)": 1
+        },
+        "total_violations": 13,
+        "most_frequent_violation": {
+            "violation_type": "Missing function or method docstring (missing-function-docstring)",
+            "frequency": 4
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

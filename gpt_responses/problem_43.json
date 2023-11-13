@@ -1,13 +1,13 @@
 {
     "id": "problem_43",
     "description": "",
-    "code": "#This program will append a given list of numbers\n\nlist_of_numbers = [1,2,3,4,5]\n\n#This will append the number 6 to the list\nlist_of_numbers.append(6)\n\n#Print",
+    "code": "# Create a list of strings\nlist_of_strings = ['This', 'is', 'a', 'list', 'of', 'strings']\n\n# Use the append() method to add a new string to the list\nlist_of_strings.append('to')\nlist_of_strings.append('append')\n\n# Print the list to view the new string\nprint(list_of_strings)",
     "tags": [
         "append",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "append",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "append"
+    ],
+    "difficulty": "Easy"
 }

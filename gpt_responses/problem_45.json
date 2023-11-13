@@ -1,13 +1,13 @@
 {
     "id": "problem_45",
     "description": "",
-    "code": "def clear(): \n    print(\"Clearing the screen...\") \n    for i in range(50): \n        print(\"\\n\") \n\nclear()",
+    "code": "# Program to clear the console\n\nimport os\n\n# Check the operating system\nif os.name == 'nt':\n    os.system('cls')\nelse:\n    os.system('clear')",
     "tags": [
         "clear",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "clear",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "clear"
+    ],
+    "difficulty": "Easy"
 }

@@ -1,5 +1,43 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpgt0pryza.py": 1
+        "violations": {
+            "E114 indentation is not a multiple of 4 (comment)": 4,
+            "E111 indentation is not a multiple of 4": 4,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "E261 at least two spaces before inline comment": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 11,
+        "most_frequent_violation": {
+            "violation_type": "E111 indentation is not a multiple of 4",
+            "frequency": 4
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Bad indentation. Found 2 spaces, expected 4 (bad-indentation)": 3,
+            "Bad indentation. Found 4 spaces, expected 8 (bad-indentation)": 1,
+            "Bad indentation. Found 6 spaces, expected 12 (bad-indentation)": 1,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1,
+            "Redefining name 'words' from outer scope (line 14) (redefined-outer-name)": 1,
+            "Redefining name 'ending_words' from outer scope (line 15) (redefined-outer-name)": 1
+        },
+        "total_violations": 10,
+        "most_frequent_violation": {
+            "violation_type": "Bad indentation. Found 2 spaces, expected 4 (bad-indentation)",
+            "frequency": 3
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

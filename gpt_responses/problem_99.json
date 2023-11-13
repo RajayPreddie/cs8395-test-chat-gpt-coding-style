@@ -1,13 +1,15 @@
 {
     "id": "problem_99",
     "description": "",
-    "code": "# Program to find the intersection of two lists \nlist1 = [1, 2, 3, 4, 5] \nlist2 = [4, 5, 6, 7, 8] \n  \n# Using set() + & operator \nresult = list(",
+    "code": "# Create a list of numbers\nnumbers = [1, 2, 3, 4, 5]\n\n# Create a bytearray from the list of numbers\nbyte_array = bytearray(numbers)\n\n# Print the bytearray\nprint(byte_array)",
     "tags": [
         "list",
-        "High",
-        "normal code"
+        "bytearray",
+        "Hard"
     ],
-    "keyword": "list",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "list",
+        "bytearray"
+    ],
+    "difficulty": "Hard"
 }

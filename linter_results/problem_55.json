@@ -1,5 +1,42 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpxm18wcc_.py": 5
+        "violations": {
+            "F401 'flask' imported but unused": 1,
+            "E302 expected 2 blank lines, found 1": 1,
+            "F821 undefined name 'app'": 1,
+            "F821 undefined name 'result'": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 5,
+        "most_frequent_violation": {
+            "violation_type": "W292 no newline at end of file",
+            "frequency": 1
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Unable to import 'flask' (import-error)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1,
+            "Undefined variable 'app' (undefined-variable)": 1,
+            "Undefined variable 'result' (undefined-variable)": 1,
+            "Unused import flask (unused-import)": 1
+        },
+        "total_violations": 7,
+        "most_frequent_violation": {
+            "violation_type": "Unused import flask (unused-import)",
+            "frequency": 1
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

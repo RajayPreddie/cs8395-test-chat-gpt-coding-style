@@ -1,13 +1,15 @@
 {
     "id": "problem_93",
     "description": "",
-    "code": "import subprocess\n\ndef main():\n    # Define a string containing a command to be executed\n    cmd = 'ls -l'\n\n    # Execute the command and store the output\n    output = subprocess.check_output(cmd, shell=True)",
+    "code": "import subprocess\nimport tensorflow as tf\n\n# Create a TensorFlow session\nsess = tf.Session()\n\n# Initialize the variables\ninit_op = tf.global_variables_initializer()\nsess.run(init_op)\n\n# Run a subprocess\nsubprocess.call(['echo', 'Hello World!'])\n\n# Close the session\nsess.close()",
     "tags": [
         "subprocess",
-        "High",
-        "normal code"
+        "tensorflow",
+        "Hard"
     ],
-    "keyword": "subprocess",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "subprocess",
+        "tensorflow"
+    ],
+    "difficulty": "Hard"
 }

@@ -1,5 +1,37 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmp3w_v2uk8.py": 1
+        "violations": {
+            "E302 expected 2 blank lines, found 1": 1,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 3,
+        "most_frequent_violation": {
+            "violation_type": "W292 no newline at end of file",
+            "frequency": 1
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1,
+            "Redefining name 'numbers' from outer scope (line 12) (redefined-outer-name)": 1
+        },
+        "total_violations": 4,
+        "most_frequent_violation": {
+            "violation_type": "Redefining name 'numbers' from outer scope (line 12) (redefined-outer-name)",
+            "frequency": 1
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

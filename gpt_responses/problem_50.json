@@ -1,13 +1,13 @@
 {
     "id": "problem_50",
     "description": "",
-    "code": "def difference(a, b):\n  return abs(a - b)\n\nprint(difference(10, 5)) # prints 5",
+    "code": "#This program will calculate the difference between two numbers\n\ndef diff(num1, num2):\n  return num1 - num2\n\n#Test the program\n\nx = diff(10, 4)\n\nprint(x) # prints 6",
     "tags": [
         "difference",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "difference",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "difference"
+    ],
+    "difficulty": "Easy"
 }

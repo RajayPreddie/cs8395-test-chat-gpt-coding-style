@@ -1,13 +1,13 @@
 {
     "id": "problem_35",
     "description": "",
-    "code": "import json\n\ndata = {\n    'name': 'John Doe',\n    'age': 32,\n    'city': 'New York'\n}\n\n# Serialize the data\nserialized_data = json.dumps(data)\n\n# Print",
+    "code": "# Import the pickle library\nimport pickle\n\n# Create a dictionary with key-value pairs\ndata = {\n    \"name\": \"John Doe\",\n    \"age\": 21,\n    \"height\": 6.2\n    }\n\n# Serialize the dictionary into a byte stream\nserialized_data = pickle.dumps(data)\n\n# Deserialize the byte stream back into a dictionary\ndeserialized_data = pickle.loads(serialized_data)\n\n# Print the deserialized data\nprint(deserialized_data)",
     "tags": [
         "Serialization",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Serialization",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Serialization"
+    ],
+    "difficulty": "Easy"
 }

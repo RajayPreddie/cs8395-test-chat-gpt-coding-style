@@ -1,13 +1,13 @@
 {
     "id": "problem_27",
     "description": "",
-    "code": "class MyMetaClass(type):\n    def __new__(cls, name, bases, dct):\n        dct['name'] = name\n        return super(MyMetaClass, cls).__new__(cls, name, bases, dct",
+    "code": "# Define a metaclass \nclass MyMeta(type): \n    # Define a method \n    def __new__(cls, name, bases, attrs): \n        # Create a new class \n        new_class = super(MyMeta, cls).__new__(cls, name, bases, attrs) \n        # Set a class attribute \n        new_class.attribute = 'MyMeta'\n        # Return the new class \n        return new_class \n  \n# Create a class \nclass MyClass(metaclass = MyMeta): \n    # Define a method \n    def __init__(self): \n        # Print the class attribute \n        print(self.attribute) \n  \n# Create an object of MyClass \nobj = MyClass()",
     "tags": [
         "Metaclass",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Metaclass",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Metaclass"
+    ],
+    "difficulty": "Easy"
 }

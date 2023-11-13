@@ -1,13 +1,15 @@
 {
     "id": "problem_91",
     "description": "",
-    "code": "# Program to check if a string starts with a given substring\n\ndef startswith(string, substring):\n    # Get the length of substring\n    sub_len = len(substring)\n    \n    # Loop through the string\n    for i",
+    "code": "import subprocess\n\n# program to check if a string starts with a given substring\n\n# get the string and substring from user\nstring = input(\"Please enter a string: \")\nsubstring = input(\"Please enter a substring: \")\n\n# check if the string starts with the substring\nif string.startswith(substring):\n    print(\"The string starts with the given substring.\")\nelse:\n    print(\"The string does not start with the given substring.\")\n\n# execute a command\nsubprocess.run([\"ls\", \"-l\"])",
     "tags": [
         "startswith",
-        "High",
-        "normal code"
+        "subprocess",
+        "Hard"
     ],
-    "keyword": "startswith",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "startswith",
+        "subprocess"
+    ],
+    "difficulty": "Hard"
 }

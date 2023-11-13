@@ -1,13 +1,13 @@
 {
     "id": "problem_38",
     "description": "",
-    "code": "# Program to demonstrate the use of tuples\n\n# Create a tuple\ntuple_example = (1, 2, 3, 4)\n\n# Print the tuple\nprint(\"The tuple is : \" + str(tuple_example))\n\n# Accessing elements",
+    "code": "# Create a tuple of numbers \nnumbers = (1, 2, 3, 4, 5) \n  \n# Create a variable to hold the sum \nsum = 0\n  \n# Iterate over the tuple \nfor val in numbers: \n    sum = sum + val \n  \n# Print the sum \nprint(\"The sum is\", sum)",
     "tags": [
         "tuple",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "tuple",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "tuple"
+    ],
+    "difficulty": "Easy"
 }

@@ -1,13 +1,13 @@
 {
     "id": "problem_11",
     "description": "",
-    "code": "def decorator_function(function): \n  def wrapper_function(): \n    print(\"This is before function execution\") \n    function() \n    print(\"This is after function execution\") \n  return wrapper_function \n\n@decorator_",
+    "code": "def decorator_function(func): \n  def wrapper_function(*args, **kwargs): \n    print(\"Before executing the function\") \n    func(*args, **kwargs) \n    print(\"After executing the function\") \n  return wrapper_function \n\n@decorator_function\ndef display(): \n  print(\"Inside the function\") \n\ndisplay()",
     "tags": [
         "Decorator",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Decorator",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Decorator"
+    ],
+    "difficulty": "Easy"
 }

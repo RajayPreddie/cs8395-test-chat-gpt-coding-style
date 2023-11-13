@@ -1,13 +1,15 @@
 {
     "id": "problem_82",
     "description": "",
-    "code": "def replace(string, old, new):\n    \"\"\"\n    Replaces all occurrences of 'old' substring with 'new' substring in 'string'.\n\n    Args:\n        string (str): The source string.\n        old (str): The substring",
+    "code": "#This program will replace and reverse a given string \n\ndef replace_reverse(string): \n    #replace all \"a\" with \"b\"\n    new_string = string.replace(\"a\", \"b\") \n    #reverse the new string\n    reversed_string = new_string[::-1] \n    #return the reversed string\n    return reversed_string\n\n#test the function\nprint(replace_reverse(\"abacadabra\"))",
     "tags": [
         "replace",
-        "High",
-        "well-written code"
+        "reverse",
+        "Hard"
     ],
-    "keyword": "replace",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "replace",
+        "reverse"
+    ],
+    "difficulty": "Hard"
 }

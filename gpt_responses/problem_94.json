@@ -1,13 +1,15 @@
 {
     "id": "problem_94",
     "description": "",
-    "code": "import sys\n\nclass MyProgram:\n    def __init__(self):\n        self.data = []\n \n    def add_data(self, value):\n        self.data.append(value)\n \n    def process_data(self):",
+    "code": "import sys\nimport threading\n\ndef main():\n    # Create a new thread\n    t = threading.Thread(target=my_function)\n    # Start the thread\n    t.start()\n    # Wait for the thread to complete\n    t.join()\n\ndef my_function():\n    # Do something\n    print(\"Hello World!\")\n\nif __name__ == '__main__':\n    sys.exit(main())",
     "tags": [
         "sys",
-        "High",
-        "well-written code"
+        "threading",
+        "Hard"
     ],
-    "keyword": "sys",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "sys",
+        "threading"
+    ],
+    "difficulty": "Hard"
 }

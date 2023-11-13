@@ -1,13 +1,15 @@
 {
     "id": "problem_72",
     "description": "",
-    "code": "import multiprocessing\n\ndef calculate_sum(numbers):\n    return sum(numbers)\n\nif __name__ == '__main__':\n    numbers = [1, 2, 3, 4, 5]\n    pool = multiprocessing",
+    "code": "import multiprocessing\nimport numpy as np\n\ndef process_data(data):\n    # process data here\n    return processed_data\n\nif __name__ == '__main__':\n    # create an array of data\n    data = np.array([1,2,3,4,5])\n\n    # create a pool of processes\n    pool = multiprocessing.Pool(processes=4)\n\n    # map the process_data function to the data array\n    processed_data = pool.map(process_data, data)\n\n    # close the pool\n    pool.close()\n\n    # print the processed data\n    print(processed_data)",
     "tags": [
         "multiprocessing",
-        "Medium",
-        "well-written code"
+        "numpy",
+        "Medium"
     ],
-    "keyword": "multiprocessing",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "multiprocessing",
+        "numpy"
+    ],
+    "difficulty": "Medium"
 }

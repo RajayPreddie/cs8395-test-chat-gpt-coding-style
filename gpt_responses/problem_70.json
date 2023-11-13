@@ -1,13 +1,15 @@
 {
     "id": "problem_70",
     "description": "",
-    "code": "# This program will calculate the area of a circle\n\nimport math\n\n# Set the radius of the circle\nradius = 10\n\n# Calculate the area of the circle\narea = math.pi * radius**2\n\n# Print the area of the circle\nprint",
+    "code": "import matplotlib.pyplot as plt\n\ndef graph_function(x_coords, y_coords):\n    plt.plot(x_coords, y_coords)\n    plt.xlabel('X Coordinates')\n    plt.ylabel('Y Coordinates')\n    plt.title('Graph of Function')\n    plt.show()\n\n# Example data\nx_coords = [1, 2, 3, 4, 5]\ny_coords = [1, 4, 9, 16, 25]\n\ngraph_function(x_coords, y_coords)",
     "tags": [
         "math",
-        "Medium",
-        "well-written code"
+        "matplotlib",
+        "Medium"
     ],
-    "keyword": "math",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "math",
+        "matplotlib"
+    ],
+    "difficulty": "Medium"
 }

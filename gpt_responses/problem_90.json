@@ -1,13 +1,15 @@
 {
     "id": "problem_90",
     "description": "",
-    "code": "def split_string(string): \n    '''\n    This function takes a string as an argument and returns a list of strings \n    that are split up based on the spaces in the string.\n    \n    Parameters: \n        string (str): The string",
+    "code": "# This program takes a string as input, splits it into a list of words, strips the words of punctuation, and prints the list of words\n\nstring = input(\"Please enter a string: \")\n\nwords = string.split(' ')\n\nfor i in range(len(words)):\n    words[i] = words[i].strip('.,!?;:')\n\nprint(words)",
     "tags": [
         "split",
-        "High",
-        "well-written code"
+        "strip",
+        "Hard"
     ],
-    "keyword": "split",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "split",
+        "strip"
+    ],
+    "difficulty": "Hard"
 }

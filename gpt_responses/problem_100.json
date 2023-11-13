@@ -1,13 +1,15 @@
 {
     "id": "problem_100",
     "description": "",
-    "code": "import asyncio\n\nasync def main():\n    print(\"Program Start\")\n    await asyncio.sleep(2)\n    print(\"Program End\")\n\nif __name__ == \"__main__\":\n    loop = asyncio.get_event_loop",
+    "code": "import asyncio\n\nasync def read_bytes(file_name):\n    with open(file_name, 'rb') as file:\n        data = file.read()\n    return data\n\nasync def main():\n    file_name = 'myfile.txt'\n    data = await read_bytes(file_name)\n    print(data)\n\nif __name__ == '__main__':\n    loop = asyncio.get_event_loop()\n    loop.run_until_complete(main())\n    loop.close()",
     "tags": [
         "asyncio",
-        "High",
-        "well-written code"
+        "bytes",
+        "Hard"
     ],
-    "keyword": "asyncio",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "asyncio",
+        "bytes"
+    ],
+    "difficulty": "Hard"
 }

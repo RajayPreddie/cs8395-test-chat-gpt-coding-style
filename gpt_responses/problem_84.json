@@ -1,13 +1,15 @@
 {
     "id": "problem_84",
     "description": "",
-    "code": "def reverse(string): \n    #initialize an empty string \n    rev_string = \"\" \n    #iterate through the string in reverse order \n    for i in range(len(string)-1, -1, -1): \n        rev",
+    "code": "# Create a dictionary to store key-value pairs\nmy_dict = {}\n\n# Function to reverse a string\ndef reverse_string(string):\n    return string[::-1]\n\n# Function to set default value for a key in the dictionary\ndef set_default(key, value):\n    my_dict.setdefault(key, value)\n\n# Test the functions\nstring = \"Hello World!\"\nprint(\"Original string: {}\".format(string))\nprint(\"Reversed string: {}\".format(reverse_string(string)))\n\n# Set default value for a key\nset_default('name', 'John')\nprint(\"New dictionary: {}\".format(my_dict))",
     "tags": [
         "reverse",
-        "High",
-        "well-written code"
+        "setdefault",
+        "Hard"
     ],
-    "keyword": "reverse",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "reverse",
+        "setdefault"
+    ],
+    "difficulty": "Hard"
 }

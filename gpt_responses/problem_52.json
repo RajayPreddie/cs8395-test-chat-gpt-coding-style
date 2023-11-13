@@ -1,13 +1,15 @@
 {
     "id": "problem_52",
     "description": "",
-    "code": "# Importing Django \nimport django \n  \n# Configuring settings for the project \ndjango.setup() \n  \n# Importing models from django.db \nfrom django.db import models \n  \n# Creating a Model class",
+    "code": "# This program will check if a given string ends with a certain substring.\n\n# Importing the Django library\nimport django\n\n# Function to check if a given string ends with a certain substring\ndef check_endswith(string, substring):\n    # Check if the given string ends with the given substring\n    if string.endswith(substring):\n        # Return true if the given string ends with the given substring\n        return True\n    else:\n        # Return false if the given string does not end with the given substring\n        return False\n\n# Input for the string\nstring = input(\"Enter the string: \")\n\n# Input for the substring\nsubstring = input(\"Enter the substring: \")\n\n# Calling the check_endswith function\nresult = check_endswith(string, substring)\n\n# Print the result\nif result == True:\n    print(\"The given string ends with the given substring.\")\nelse:\n    print(\"The given string does not end with the given substring.\")",
     "tags": [
         "django",
-        "Medium",
-        "well-written code"
+        "endswith",
+        "Medium"
     ],
-    "keyword": "django",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "django",
+        "endswith"
+    ],
+    "difficulty": "Medium"
 }

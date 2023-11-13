@@ -1,13 +1,13 @@
 {
     "id": "problem_17",
     "description": "",
-    "code": "def GarbageCollection(): \n  print(\"Starting garbage collection...\") \n  garbage_list = [] \n  for item in range(5): \n    garbage_list.append(input(\"Enter item to add to garbage list: \")) \n  print",
+    "code": "# GarbageCollection Program\n\n# Creating a function to calculate the total amount of garbage collected \ndef garbageCollection(garbage_weight):\n    total_weight = 0\n    # Iterating through the list of garbage weights \n    for weight in garbage_weight:\n        total_weight += weight\n    # Return the total weight of the garbage collected \n    return total_weight\n\n# Taking input from user for the list of garbage weights \ngarbage_weight = [float(x) for x in input(\"Enter the weights of the garbage collected (separated by spaces): \").split()]\n\n# Calculating the total weight of the garbage collected \ntotal_garbage_weight = garbageCollection(garbage_weight)\n\n# Printing the total weight of the garbage collected \nprint(\"The total weight of the garbage collected is:\", total_garbage_weight)",
     "tags": [
         "GarbageCollection",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "GarbageCollection",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "GarbageCollection"
+    ],
+    "difficulty": "Easy"
 }

@@ -1,13 +1,13 @@
 {
     "id": "problem_20",
     "description": "",
-    "code": "import heapq\n\ndef get_kth_smallest(nums, k):\n    heapq.heapify(nums)\n    for _ in range(k-1):\n        heapq.heappop(nums)\n    return heap",
+    "code": "import heapq\n\n# Create a list of tuples, where each tuple contains the name and age of a person\npeople = [('John', 21), ('Adam', 30), ('Sara', 19), ('Mia', 25)]\n\n# Create an empty list to store the youngest persons\nyoungest_persons = []\n\n# Use heapq to find the three youngest persons\nfor _ in range(3):\n    youngest_persons.append(heapq.heappop(people))\n\n# Print the three youngest persons\nprint('The three youngest persons are: ')\nfor person in youngest_persons:\n    print(person[0], person[1])",
     "tags": [
         "heapq",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "heapq",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "heapq"
+    ],
+    "difficulty": "Easy"
 }

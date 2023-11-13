@@ -1,13 +1,15 @@
 {
     "id": "problem_59",
     "description": "",
-    "code": "def get_input():\n    user_input = input(\"Enter a number: \")\n    return user_input\n\ndef calculate_square(number):\n    return number * number\n\nnumber = get_input()\nresult = calculate_square(number)",
+    "code": "# Create a list of items\nitems = [\"apple\", \"banana\", \"cucumber\", \"dates\", \"elderberry\"]\n\n# Get an item from the list\ndef get_item(index):\n    return items[index]\n\n# Print the item\nprint(get_item(2))",
     "tags": [
         "get",
-        "Medium",
-        "normal code"
+        "index",
+        "Medium"
     ],
-    "keyword": "get",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "get",
+        "index"
+    ],
+    "difficulty": "Medium"
 }

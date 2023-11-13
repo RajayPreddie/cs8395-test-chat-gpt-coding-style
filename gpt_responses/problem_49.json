@@ -1,13 +1,13 @@
 {
     "id": "problem_49",
     "description": "",
-    "code": "import datetime\n\ncurrent_date = datetime.datetime.now()\n\nprint(\"Today's date is:\", current_date.strftime(\"%d/%m/%Y\"))",
+    "code": "import datetime\n\n# Get the current date and time\nnow = datetime.datetime.now()\n\n# Ask the user for their age\nage = int(input(\"Please enter your age: \"))\n\n# Calculate the year the user was born\nbirth_year = now.year - age\n\n# Print the birth year\nprint(\"Your birth year is:\", birth_year)",
     "tags": [
         "datetime",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "datetime",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "datetime"
+    ],
+    "difficulty": "Easy"
 }

@@ -1,13 +1,13 @@
 {
     "id": "problem_42",
     "description": "",
-    "code": "def add(x, y):\n    \"\"\"\n    This function adds two numbers and returns the result\n    \"\"\"\n    return x + y",
+    "code": "# Program to add two numbers\n\ndef add_numbers(num1, num2):\n    result = num1 + num2\n    return result\n\n# Main program\n\nnumber1 = int(input(\"Enter the first number: \"))\nnumber2 = int(input(\"Enter the second number: \"))\n\nresult = add_numbers(number1, number2)\n\nprint(\"The result is:\", result)",
     "tags": [
         "add",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "add",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "add"
+    ],
+    "difficulty": "Easy"
 }

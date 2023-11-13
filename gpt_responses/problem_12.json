@@ -1,13 +1,13 @@
 {
     "id": "problem_12",
     "description": "",
-    "code": "from collections import defaultdict \n\n# Create a defaultdict \nd = defaultdict(list) \n\n# Add elements to the defaultdict \nd['python'].append(\"awesome\") \nd['something-else'].append(\"not relevant\")",
+    "code": "from collections import defaultdict \n\n# Create a defaultdict \ndd = defaultdict(list) \n\n# Add key-value pairs to the defaultdict \ndd['a'].append(1) \ndd['a'].append(2) \ndd['b'].append(4) \n\n# Print the defaultdict \nprint(dd)",
     "tags": [
         "DefaultDict",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "DefaultDict",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "DefaultDict"
+    ],
+    "difficulty": "Easy"
 }

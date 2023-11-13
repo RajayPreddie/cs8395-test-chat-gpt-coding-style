@@ -1,13 +1,13 @@
 {
     "id": "problem_40",
     "description": "",
-    "code": "# This program uses the UnitTesting keyword to demonstrate a simple Unit Testing example\n\n# Import the unittest module\nimport unittest\n\n# Define a class for the unit test\nclass TestCalculator(unittest.TestCase):",
+    "code": "def test_function(x, y):\n  \"\"\"\n  This function takes two parameters and returns the sum of the two.\n  \"\"\"\n  return x + y\n\ndef test_function_test():\n  \"\"\"\n  This is a unit test for the test_function() function.\n  \"\"\"\n  assert test_function(1, 2) == 3\n  assert test_function(2, 3) == 5\n  assert test_function(5, 5) == 10\n  print(\"All unit tests passed!\")\n\ntest_function_test()",
     "tags": [
         "UnitTesting",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "UnitTesting",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "UnitTesting"
+    ],
+    "difficulty": "Easy"
 }

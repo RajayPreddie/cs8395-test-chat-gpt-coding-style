@@ -1,13 +1,13 @@
 {
     "id": "problem_47",
     "description": "",
-    "code": "def copy(source, destination):\n    with open(source, 'r') as src:\n        with open(destination, 'w') as dest:\n            for line in src:\n                dest.write(line)\n\ncopy('source.txt', '",
+    "code": "# This program will allow users to copy a file from one location to another\n\nimport shutil\n\n# Ask user for source and destination file paths\nsrc_file_path = input(\"Please enter the source file path: \")\ndest_file_path = input(\"Please enter the destination file path: \")\n\n# Copy the file from source to destination\nshutil.copy(src_file_path, dest_file_path)\n\n# Print confirmation message\nprint(\"File successfully copied from {} to {}\".format(src_file_path, dest_file_path))",
     "tags": [
         "copy",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "copy",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "copy"
+    ],
+    "difficulty": "Easy"
 }

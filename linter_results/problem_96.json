@@ -1,5 +1,39 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmp3czwc6qd.py": 3
+        "violations": {
+            "E302 expected 2 blank lines, found 1": 2,
+            "W291 trailing whitespace": 7,
+            "E251 unexpected spaces around keyword / parameter equals": 2,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 13,
+        "most_frequent_violation": {
+            "violation_type": "W291 trailing whitespace",
+            "frequency": 7
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 7,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 2
+        },
+        "total_violations": 11,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 7
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

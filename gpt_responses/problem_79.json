@@ -1,13 +1,15 @@
 {
     "id": "problem_79",
     "description": "",
-    "code": "import random\n\ndef random_list(length):\n  my_list = []\n  for i in range(length):\n    my_list.append(random.randint(1,100))\n  return my_list\n\nlength = int(input(\"",
+    "code": "import random\nimport re\n\n# Create a list of words to choose from\nwords = [\"cat\", \"dog\", \"bird\", \"horse\", \"elephant\"]\n\n# Generate a random word from the list\nrandom_word = random.choice(words)\n\n# Ask the user to guess the word\nuser_guess = input(\"Guess the word: \")\n\n# Check if the user's guess matches the random word\nif re.match(user_guess, random_word):\n    print(\"You guessed correctly!\")\nelse:\n    print(\"Sorry, that's not the correct word.\")",
     "tags": [
         "random",
-        "Medium",
-        "normal code"
+        "re",
+        "Medium"
     ],
-    "keyword": "random",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "random",
+        "re"
+    ],
+    "difficulty": "Medium"
 }

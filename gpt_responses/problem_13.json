@@ -1,13 +1,13 @@
 {
     "id": "problem_13",
     "description": "",
-    "code": "# DependencyInjection.py\n\nclass DependencyInjection:\n    def __init__(self, dependencies):\n        self.dependencies = dependencies\n\n    def inject(self):\n        for dependency in self.dependencies:\n            dependency.inject()",
+    "code": "# Dependency Injection Example \n\n# Import Dependency \nimport random \n\n# Create a class \nclass Dice: \n\tdef __init__(self, num_sides): \n\t\tself.num_sides = num_sides \n\n# Create a function to roll the dice \n\tdef roll(self): \n\t\treturn random.randint(1, self.num_sides) \n\n# Create a class to inject the dependency \nclass DiceGame: \n\tdef __init__(self, dice): \n\t\tself.dice = dice \n\n# Create a function to play the game \n\tdef play(self): \n\t\tresult = self.dice.roll() \n\t\tprint(\"You rolled a\", result) \n\n# Create an instance of the dice \ndice = Dice(6) \n\n# Create an instance of the game \ngame = DiceGame(dice) \n\n# Play the game \ngame.play()",
     "tags": [
         "DependencyInjection",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "DependencyInjection",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "DependencyInjection"
+    ],
+    "difficulty": "Easy"
 }

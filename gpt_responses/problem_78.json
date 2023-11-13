@@ -1,13 +1,15 @@
 {
     "id": "problem_78",
     "description": "",
-    "code": "import torch\n\n# Create a 3x3 matrix\nmatrix = torch.tensor([[1., 2., 3.],\n                      [4., 5., 6.],\n                      [7., 8., 9.]])\n\n# Calculate the determinant of the",
+    "code": "#import necessary packages\nimport torch \nimport random \n\n#create a list of random numbers\nnums = [random.randint(1, 10) for x in range(10)]\nprint(nums)\n\n#convert list to tensor\nnums_tensor = torch.tensor(nums)\nprint(nums_tensor)\n\n#calculate the mean of the tensor\nmean_tensor = torch.mean(nums_tensor)\nprint(mean_tensor)",
     "tags": [
         "pytorch",
-        "Medium",
-        "well-written code"
+        "random",
+        "Medium"
     ],
-    "keyword": "pytorch",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "pytorch",
+        "random"
+    ],
+    "difficulty": "Medium"
 }

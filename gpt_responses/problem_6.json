@@ -1,13 +1,13 @@
 {
     "id": "problem_6",
     "description": "",
-    "code": "# Program to generate a list of even numbers between 0 and 10 \n\neven_nums = [num for num in range(11) if num % 2 == 0] \nprint(even_nums)",
+    "code": "# Program to test comprehension of a given text\n\n# Define a function to test comprehension\ndef test_comprehension(text):\n  # Ask the user to enter a sentence from the text\n  sentence = input(\"Please enter a sentence from the text: \")\n  \n  # Check if the sentence entered is in the text\n  if sentence in text:\n    print(\"You have correctly identified a sentence from the text.\")\n  else:\n    print(\"The sentence you have entered is not from the text.\")\n\n# Get the text to be tested\ntext = input(\"Please enter the text to be tested: \")\n\n# Call the function to test comprehension\ntest_comprehension(text)",
     "tags": [
         "Comprehension",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Comprehension",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Comprehension"
+    ],
+    "difficulty": "Easy"
 }

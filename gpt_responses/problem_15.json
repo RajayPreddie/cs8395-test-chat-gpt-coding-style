@@ -1,13 +1,13 @@
 {
     "id": "problem_15",
     "description": "",
-    "code": "# Create an empty dictionary \nmy_dict = {} \n  \n# Add key-value pairs to the dictionary \nmy_dict['Name'] = 'John'\nmy_dict['Age'] = 24\nmy_dict['Country'] = 'USA'",
+    "code": "#Create a dictionary of items\nmy_dict = {\n    \"item1\": \"apple\",\n    \"item2\": \"banana\",\n    \"item3\": \"carrot\"\n}\n\n#Access and print the items in the dictionary\nfor key, value in my_dict.items(): \n    print(key, \":\", value) \n    \n#Add a new item to the dictionary\nmy_dict[\"item4\"] = \"dates\"\n\n#Print the updated dictionary\nprint(my_dict)",
     "tags": [
         "dict",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "dict",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "dict"
+    ],
+    "difficulty": "Easy"
 }

@@ -1,5 +1,35 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmp4irg3y9o.py": 1
+        "violations": {
+            "F821 undefined name 'collections'": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 2,
+        "most_frequent_violation": {
+            "violation_type": "W292 no newline at end of file",
+            "frequency": 1
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Undefined variable 'collections' (undefined-variable)": 1
+        },
+        "total_violations": 3,
+        "most_frequent_violation": {
+            "violation_type": "Undefined variable 'collections' (undefined-variable)",
+            "frequency": 1
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

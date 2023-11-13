@@ -1,5 +1,53 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpbyj0ejxj.py": 1
+        "violations": {
+            "E265 block comment should start with '# '": 10,
+            "E302 expected 2 blank lines, found 1": 1,
+            "W293 blank line contains whitespace": 4,
+            "E501 line too long (143 > 79 characters)": 1,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "E231 missing whitespace after ','": 8,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 26,
+        "most_frequent_violation": {
+            "violation_type": "E265 block comment should start with '# '",
+            "frequency": 10
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 4,
+            "Line too long (143/100) (line-too-long)": 1,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Unable to import 'scipy' (import-error)": 1,
+            "Unable to import 'sklearn' (import-error)": 1,
+            "Missing class docstring (missing-class-docstring)": 1,
+            "Class 'Classifier' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 2,
+            "Variable name \"X_train\" doesn't conform to snake_case naming style (invalid-name)": 1,
+            "Variable name \"X_test\" doesn't conform to snake_case naming style (invalid-name)": 1,
+            "Unused variable 'X_test' (unused-variable)": 1,
+            "Unused variable 'y_test' (unused-variable)": 1,
+            "Argument name \"X\" doesn't conform to snake_case naming style (invalid-name)": 1,
+            "Redefining name 'X' from outer scope (line 24) (redefined-outer-name)": 1,
+            "Attribute 'model' defined outside __init__ (attribute-defined-outside-init)": 1
+        },
+        "total_violations": 20,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 4
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

@@ -1,13 +1,15 @@
 {
     "id": "problem_75",
     "description": "",
-    "code": "import pandas as pd\n\n# Create a Pandas DataFrame\ndata = {'Name': ['John', 'Paul', 'George', 'Ringo'],\n        'Age': [21, 22, 24, 25],\n        'Instrument': ['G",
+    "code": "import pandas as pd\n\n# Function to calculate the population density\ndef calc_pop_density(population, area):\n    pop_density = population/area\n    return pop_density\n\n# Read csv file\ndf = pd.read_csv(\"data.csv\")\n\n# Calculate population density\ndf['pop_density'] = calc_pop_density(df['population'], df['area'])\n\n# Print the result\nprint(df)",
     "tags": [
         "pandas",
-        "Medium",
-        "normal code"
+        "pop",
+        "Medium"
     ],
-    "keyword": "pandas",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "pandas",
+        "pop"
+    ],
+    "difficulty": "Medium"
 }

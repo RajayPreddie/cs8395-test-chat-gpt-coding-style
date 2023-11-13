@@ -1,13 +1,13 @@
 {
     "id": "problem_19",
     "description": "",
-    "code": "# Global state\n\nmy_list = []\n\ndef add_to_list(item):\n  my_list.append(item)\n\ndef remove_from_list(item):\n  my_list.remove(item)\n\ndef print_list",
+    "code": "# This program will calculate the global state of the environment \n# based on the amount of carbon dioxide (CO2) in the atmosphere.\n\n# Define a function to calculate the global state of the environment\ndef calculate_global_state(co2_level):\n    # Define the global state constants\n    LOW_THRESHOLD = 350\n    MEDIUM_THRESHOLD = 450\n    HIGH_THRESHOLD = 500\n\n    # Check if the CO2 level is below the low threshold\n    if co2_level < LOW_THRESHOLD:\n        return \"good\"\n    # Check if the CO2 level is between the low and medium thresholds\n    elif co2_level >= LOW_THRESHOLD and co2_level < MEDIUM_THRESHOLD:\n        return \"moderate\"\n    # Check if the CO2 level is between the medium and high thresholds\n    elif co2_level >= MEDIUM_THRESHOLD and co2_level < HIGH_THRESHOLD:\n        return \"bad\"\n    # Otherwise, the CO2 level is above the high threshold\n    else:\n        return \"very bad\"\n\n# Ask the user to input the CO2 level\nco2_level = float(input(\"Please enter the CO2 level in the atmosphere: \"))\n\n# Calculate the global state of the environment\nstate = calculate_global_state(co2_level)\n\n# Print the result\nprint(\"The global state of the environment is:\", state)",
     "tags": [
         "Global state",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "Global state",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "Global state"
+    ],
+    "difficulty": "Easy"
 }

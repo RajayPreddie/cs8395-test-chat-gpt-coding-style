@@ -1,13 +1,13 @@
 {
     "id": "problem_18",
     "description": "",
-    "code": "def generator():\n    for i in range(10):\n        yield i\n\nfor i in generator():\n    print(i)",
+    "code": "# Program to generate random passwords\n\nimport random\n\n# Define character sets\nlower_case = \"abcdefghijklmnopqrstuvwxyz\"\nupper_case = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nspecial_characters = \"!@#$%^&*()_+=\"\n\n# Prompt user for password length\nlength = int(input(\"Enter the length of the password: \"))\n\n# Generate password\npassword = \"\"\nfor i in range(length):\n    password += random.choice(lower_case + upper_case + special_characters)\n\n# Print password\nprint(\"Your password is: \" + password)",
     "tags": [
         "Generator",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Generator",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Generator"
+    ],
+    "difficulty": "Easy"
 }

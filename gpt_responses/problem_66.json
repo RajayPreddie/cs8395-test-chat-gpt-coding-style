@@ -1,13 +1,15 @@
 {
     "id": "problem_66",
     "description": "",
-    "code": "def join_strings(string_list):\n    \"\"\"\n    Joins a list of strings into a single string.\n\n    Parameters\n    ----------\n    string_list : list\n        A list of strings to be joined.\n\n    Returns\n    -------\n    str",
+    "code": "import json\n\n# Create and populate a list of dictionaries\nlist_of_dicts = [{'name': 'John', 'age': 25}, {'name': 'Jane', 'age': 30}, {'name': 'Bob', 'age': 20}]\n\n# Join the list of dictionaries into a single json string\njoined_json_string = json.dumps(list_of_dicts)\n\n# Print the result\nprint(joined_json_string)",
     "tags": [
         "join",
-        "Medium",
-        "well-written code"
+        "json",
+        "Medium"
     ],
-    "keyword": "join",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "join",
+        "json"
+    ],
+    "difficulty": "Medium"
 }

@@ -1,13 +1,13 @@
 {
     "id": "problem_1",
     "description": "",
-    "code": "# Create a list of numbers\nnums = [1, 2, 3, 4, 5]\n\n# Iterate over the list and print each item\nfor num in nums:\n  print(num)",
+    "code": "# This program takes a list of numbers from the user and calculates the average\n\n# Ask user to enter a list of numbers\nlist_of_nums = input(\"Please enter a list of numbers separated by a comma: \")\n\n# Split the list of numbers into a list\nlist_of_nums = list_of_nums.split(\",\")\n\n# Create a variable to store the sum of the numbers in the list\nsum = 0\n\n# Iterate over the numbers in the list\nfor num in list_of_nums:\n    # Convert the string to an integer\n    num = int(num)\n    # Add the number to the sum\n    sum = sum + num\n\n# Calculate the average of the numbers in the list\naverage = sum / len(list_of_nums)\n\n# Print the average\nprint(\"The average of the numbers in the list is:\", average)",
     "tags": [
         "list",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "list",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "list"
+    ],
+    "difficulty": "Easy"
 }

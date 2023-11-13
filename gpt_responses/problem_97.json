@@ -1,13 +1,15 @@
 {
     "id": "problem_97",
     "description": "",
-    "code": "def union(set1, set2): \n    return set1 | set2 \n  \n# test \nset1 = {1, 2, 3, 4, 5} \nset2 = {4, 5, 6, 7, 8}",
+    "code": "#Create a list of elements to be combined\nlist_1 = [1,2,3,4]\nlist_2 = [5,6,7,8]\n\n#Create an empty list to store the combined elements\nmerged_list = []\n\n#Loop through the elements in list_1 and list_2\nfor i in list_1:\n  merged_list.append(i)\n\nfor j in list_2:\n  merged_list.append(j)\n\n#Print the combined list\nprint(merged_list)",
     "tags": [
         "union",
-        "High",
-        "normal code"
+        "list",
+        "Hard"
     ],
-    "keyword": "union",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "union",
+        "list"
+    ],
+    "difficulty": "Hard"
 }

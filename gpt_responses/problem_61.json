@@ -1,13 +1,15 @@
 {
     "id": "problem_61",
     "description": "",
-    "code": "def insert(list1, list2, index): \n    list1[index:index] = list2 \n    return list1 \n  \nlist1 = [1, 2, 3, 4, 5] \nlist2 = [6, 7]",
+    "code": "# Create two sets\nset1 = {1, 2, 3, 4, 5}\nset2 = {3, 4, 5, 6, 7, 8}\n\n# Insert an element into set1\nset1.add(9)\n\n# Calculate the intersection of the two sets\nintersection = set1.intersection(set2)\n\n# Print the intersection\nprint(intersection)",
     "tags": [
         "insert",
-        "Medium",
-        "normal code"
+        "intersection",
+        "Medium"
     ],
-    "keyword": "insert",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "insert",
+        "intersection"
+    ],
+    "difficulty": "Medium"
 }

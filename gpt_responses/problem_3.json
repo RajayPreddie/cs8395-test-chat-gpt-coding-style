@@ -1,13 +1,13 @@
 {
     "id": "problem_3",
     "description": "",
-    "code": "# Create a bytearray object from a string \nstr = \"Hello World!\" \nb = bytearray(str, 'utf-8') \n  \n# Print the bytearray \nprint(b)",
+    "code": "# Create a bytearray from a string\n\nstr_input = input('Enter a string: ')\n\nbytearray_output = bytearray(str_input, 'utf-8')\n\nprint(bytearray_output)",
     "tags": [
         "bytearray",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "bytearray",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "bytearray"
+    ],
+    "difficulty": "Easy"
 }

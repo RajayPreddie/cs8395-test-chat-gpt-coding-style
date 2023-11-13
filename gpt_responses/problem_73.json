@@ -1,13 +1,15 @@
 {
     "id": "problem_73",
     "description": "",
-    "code": "#import numpy library\nimport numpy as np\n\n#create a vector of 10 random numbers\nvector = np.random.randint(1, 10, 10)\n\n#create a matrix of 5 rows and 5 columns\nmatrix = np.random.rand",
+    "code": "import numpy as np\nimport os\n\n# Create an array of random numbers\narray_of_numbers = np.random.randint(1, 101, 10)\n\n# Get the current working directory\ncurrent_dir = os.getcwd()\n\n# Create a text file with the array of numbers\nwith open(os.path.join(current_dir, 'numbers.txt'), 'w') as f:\n    for number in array_of_numbers:\n        f.write(str(number) + '\\n')\n\n# Read the text file and calculate the sum of the numbers\nwith open(os.path.join(current_dir, 'numbers.txt'), 'r') as f:\n    total = 0\n    for line in f:\n        total += int(line)\n\n# Print the sum of the numbers\nprint(f'The sum of the numbers is {total}')",
     "tags": [
         "numpy",
-        "Medium",
-        "normal code"
+        "os",
+        "Medium"
     ],
-    "keyword": "numpy",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "numpy",
+        "os"
+    ],
+    "difficulty": "Medium"
 }

@@ -1,13 +1,15 @@
 {
     "id": "problem_95",
     "description": "",
-    "code": "import tensorflow as tf\n\n#Create a Constant\na = tf.constant(5.0, name=\"a\")\nb = tf.constant(10.0, name=\"b\")\n\n#Create a Variable\nx = tf.Variable(0",
+    "code": "# Program to find the union of two sets using TensorFlow\n\nimport tensorflow as tf\n\n# Create two sets\nset1 = {1, 2, 3, 4, 5}\nset2 = {3, 4, 5, 6, 7}\n\n# Create a set object\nset_union = tf.sets.set_union(set1, set2)\n\n# Print the union of the two sets\nprint(\"The union of the two sets is: \", set_union.values.numpy())",
     "tags": [
         "tensorflow",
-        "High",
-        "normal code"
+        "union",
+        "Hard"
     ],
-    "keyword": "tensorflow",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "tensorflow",
+        "union"
+    ],
+    "difficulty": "Hard"
 }

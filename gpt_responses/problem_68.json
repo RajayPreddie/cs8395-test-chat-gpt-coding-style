@@ -1,13 +1,15 @@
 {
     "id": "problem_68",
     "description": "",
-    "code": "# Program to find the keys in a given dictionary\n\n# Define a function\ndef find_keys(dictionary):\n    # Create an empty list to store the keys\n    keys = []\n    # Iterate over the dictionary\n    for key in dictionary:",
+    "code": "# Create a function to check if a string contains any lower case keys\ndef check_lower_keys(str): \n  # Create a list to store the lower case keys\n  lower_keys = [] \n  \n  # Iterate through the string\n  for char in str: \n    # Check if the character is lower case\n    if char.islower(): \n      # Append the character to the list\n      lower_keys.append(char) \n  \n  # Return the list of lower case keys\n  return lower_keys \n\n# Test the function\ntest_str = 'HeLlO WOrLd'\nprint(check_lower_keys(test_str)) # Output: ['e', 'l', 'l', 'o', 'o', 'r', 'l', 'd']",
     "tags": [
         "keys",
-        "Medium",
-        "well-written code"
+        "lower",
+        "Medium"
     ],
-    "keyword": "keys",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "keys",
+        "lower"
+    ],
+    "difficulty": "Medium"
 }

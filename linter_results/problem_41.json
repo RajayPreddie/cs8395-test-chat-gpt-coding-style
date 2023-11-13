@@ -1,5 +1,45 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpan6kgg6n.py": 1
+        "violations": {
+            "E265 block comment should start with '# '": 8,
+            "E302 expected 2 blank lines, found 1": 3,
+            "W191 indentation contains tabs": 11,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 24,
+        "most_frequent_violation": {
+            "violation_type": "W191 indentation contains tabs",
+            "frequency": 11
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Bad indentation. Found 1 spaces, expected 4 (bad-indentation)": 9,
+            "Bad indentation. Found 2 spaces, expected 8 (bad-indentation)": 2,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Module 'virtualenv' has no 'create_environment' member (no-member)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 3,
+            "Import outside toplevel (random) (import-outside-toplevel)": 2,
+            "Unused variable 'i' (unused-variable)": 1,
+            "Redefining built-in 'list' (redefined-builtin)": 1,
+            "Redefining built-in 'sum' (redefined-builtin)": 1
+        },
+        "total_violations": 22,
+        "most_frequent_violation": {
+            "violation_type": "Bad indentation. Found 1 spaces, expected 4 (bad-indentation)",
+            "frequency": 9
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

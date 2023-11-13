@@ -1,13 +1,15 @@
 {
     "id": "problem_86",
     "description": "",
-    "code": "def set_default_value(dictionary, key, value):\n    \"\"\"\n    Sets the default value of a key in a dictionary if the key does not exist.\n    :param dictionary: The dictionary to modify.\n    :param key: The key to add or",
+    "code": "import socket\n\n# Create a TCP/IP socket\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Bind the socket to the port\nserver_address = ('localhost', 10000)\nprint('starting up on {} port {}'.format(*server_address))\nsock.bind(server_address)\n\n# Listen for incoming connections\nsock.listen(1)\n\nwhile True:\n    # Wait for a connection\n    print('waiting for a connection')\n    connection, client_address = sock.accept()\n    try:\n        print('connection from', client_address)\n\n        # Receive the data in small chunks and retransmit it\n        while True:\n            data = connection.recv(16)\n            if data:\n                print('received {!r}'.format(data))\n                connection.sendall(data)\n            else:\n                print('no data from', client_address)\n                break\n\n    finally:\n        # Clean up the connection\n        connection.close()",
     "tags": [
         "setdefault",
-        "High",
-        "well-written code"
+        "socket",
+        "Hard"
     ],
-    "keyword": "setdefault",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "setdefault",
+        "socket"
+    ],
+    "difficulty": "Hard"
 }

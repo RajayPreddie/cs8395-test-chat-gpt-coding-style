@@ -1,13 +1,13 @@
 {
     "id": "problem_22",
     "description": "",
-    "code": "# Python Program for Introspection\n\n# Importing the necessary modules\nimport inspect\n\n# Define a function to print the introspection of an object\ndef print_introspection(obj):\n  # Get the introspection of the object\n  introspection = inspect",
+    "code": "# This program will use introspection to print out all the methods and attributes of a given object\n\ndef introspect(obj):\n  print('Methods:')\n  for method in dir(obj):\n    if callable(getattr(obj, method)):\n      print(method)\n  print('Attributes:')\n  for attribute in dir(obj):\n    if not callable(getattr(obj, attribute)):\n      print(attribute)\n\n# Test\nclass TestClass:\n  def __init__(self):\n    self.a = 1\n    self.b = 2\n\ntest_obj = TestClass()\nintrospect(test_obj)",
     "tags": [
         "Introspection",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Introspection",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Introspection"
+    ],
+    "difficulty": "Easy"
 }

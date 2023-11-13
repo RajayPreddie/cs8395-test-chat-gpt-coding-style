@@ -1,13 +1,15 @@
 {
     "id": "problem_80",
     "description": "",
-    "code": "import re\n\n# define a function that takes a string as input\ndef find_all_occurrences(string):\n  # compile the regular expression\n  regex = re.compile(r'\\w+')\n  # find all matches\n  matches =",
+    "code": "def remove_re(string): \n    #Create an empty list to store the output \n    output = [] \n    #Iterate through each letter in the string \n    for letter in string: \n        #Check if the letter is \"re\" \n        if letter != \"re\": \n            #If it is not \"re\", add it to the output list \n            output.append(letter) \n    #Return the output list as a string \n    return ''.join(output) \n\n#Test the function \nprint(remove_re(\"This is a rere test\"))",
     "tags": [
         "re",
-        "Medium",
-        "well-written code"
+        "remove",
+        "Medium"
     ],
-    "keyword": "re",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "re",
+        "remove"
+    ],
+    "difficulty": "Medium"
 }

@@ -1,13 +1,13 @@
 {
     "id": "problem_26",
     "description": "",
-    "code": "# MemoryView Program\n# A program to demonstrate the use of Python's MemoryView\n\n# import the MemoryView module\nfrom array import array\nfrom sys import getsizeof\n\n# create an array of integers\narr = array('i', [1, 2, 3",
+    "code": "# Program to create a memoryview object from an array of integers\n\nimport array\n\n# Create an array of integers\narr = array.array('i', [1, 2, 3, 4, 5, 6])\n\n# Create a memoryview object from the array\nmv = memoryview(arr)\n\n# Print the memoryview object\nprint(mv)",
     "tags": [
         "MemoryView",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "MemoryView",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "MemoryView"
+    ],
+    "difficulty": "Easy"
 }

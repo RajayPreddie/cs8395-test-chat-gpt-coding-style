@@ -1,13 +1,13 @@
 {
     "id": "problem_10",
     "description": "",
-    "code": "import collections \n\n# Create a counter object\ncounter = collections.Counter() \n\n# Iterate over the list and increment the counter\nfor item in list_of_items: \n    counter[item] += 1 \n\n# Print the counter\nprint",
+    "code": "# Create a function to count the number of characters in a string\ndef count_characters(string):\n  # Initialize a counter variable\n  count = 0\n  \n  # Iterate through each character in the string\n  for char in string:\n    # Increment the counter by 1\n    count += 1\n  \n  # Return the counter variable\n  return count\n\n# Define a string\nstring = \"Hello World!\"\n\n# Call the count_characters function and print the result\nprint(count_characters(string))",
     "tags": [
         "Counter",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Counter",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Counter"
+    ],
+    "difficulty": "Easy"
 }

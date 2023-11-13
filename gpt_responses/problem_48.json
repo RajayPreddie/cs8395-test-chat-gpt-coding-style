@@ -1,13 +1,13 @@
 {
     "id": "problem_48",
     "description": "",
-    "code": "def count_elements(list_elements):\n  \"\"\"\n  This function takes a list of elements as an argument and returns the number of elements in the list.\n  \"\"\"\n  count = 0\n  for element in list_elements:\n    count +=",
+    "code": "# Program to count the number of characters in a string\n\n# Take input from the user\nuser_input = input(\"Please enter a string: \")\n\n# Initialize counter\ncounter = 0\n\n# Iterate over each character in the string\nfor char in user_input:\n  counter += 1\n\n# Print the result\nprint(\"The number of characters in the string is:\", counter)",
     "tags": [
         "count",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "count",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "count"
+    ],
+    "difficulty": "Easy"
 }

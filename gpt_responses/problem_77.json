@@ -1,13 +1,15 @@
 {
     "id": "problem_77",
     "description": "",
-    "code": "myDict = {\n    \"name\": \"John Doe\",\n    \"age\": 34,\n    \"job\": \"Software Engineer\"\n}\n\n# Use popitem() to remove the last item in the dictionary\nmyDict.popitem()\n\n#",
+    "code": "# This program will use PyTorch to classify images of different types of animals\nimport torch\nimport torchvision\nimport torchvision.transforms as transforms\n\n# Set up the transform\ntransform = transforms.Compose(\n    [transforms.ToTensor(),\n     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])\n\n# Load the training and test datasets\ntrainset = torchvision.datasets.CIFAR10(root='./data', train=True,\n                                        download=True, transform=transform)\ntestset = torchvision.datasets.CIFAR10(root='./data', train=False,\n                                       download=True, transform=transform)\n\n# Set up the dataloaders\ntrainloader = torch.utils.data.DataLoader(trainset, batch_size=4,\n                                          shuffle=True, num_workers=2)\n\ntestloader = torch.utils.data.DataLoader(testset, batch_size=4,\n                                         shuffle=False, num_workers=2)\n\n# Define the class labels\nclasses = ('plane', 'car', 'bird', 'cat',\n           'deer', 'dog', 'frog', 'horse', 'ship', 'truck')\n\n# Define the CNN\nclass Net(torch.nn.Module):\n    def __init__(self):\n        super(Net, self).__init__()\n        self.conv1 = torch.nn.Conv2d(3, 6, 5)\n        self.pool = torch.nn.MaxPool2d(2, 2)\n        self.conv2 = torch.nn.Conv2d(6, 16, 5)\n        self.fc1 = torch.nn.Linear(16 * 5 * 5, 120)\n        self.fc2 = torch.nn.Linear(120, 84)\n        self.fc3 = torch.nn.Linear(84, 10)\n\n    def forward(self, x):\n        x = self.pool(torch.nn.functional.relu(self.conv1(x)))\n        x = self.pool(torch.nn.functional.relu(self.conv2(x)))\n        x = x.view(-1, 16 * 5 * 5)\n        x = torch.nn.functional.relu(self.fc1(x))\n        x = torch.nn.functional.relu(self.fc2(x))\n        x = self.fc3(x)\n        return x\n\nnet = Net()\n\n# Define the loss function and optimizer\ncriterion = torch.nn.CrossEntropyLoss()\noptimizer = torch.optim.SGD(net.parameters(), lr=0.001, momentum=0.9)\n\n# Train the network\nfor epoch in range(2):  # loop over the dataset multiple times\n\n    running_loss = 0.0\n    for i, data in enumerate(trainloader, 0):\n        # get the inputs; data is a list of [inputs, labels]\n        inputs, labels = data\n\n        # zero the parameter gradients\n        optimizer.zero_grad()\n\n        # forward + backward + optimize\n        outputs = net(inputs)\n        loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n        # print statistics\n        running_loss += loss.item()\n        if i % 2000 == 1999:    # print every 2000 mini-batches\n            print('[%d, %5d] loss: %.3f' %\n                  (epoch + 1, i + 1, running_loss / 2000))\n            running_loss = 0.0\n\nprint('Finished Training')\n\n# Test the network\ncorrect = 0\ntotal = 0\nwith torch.no_grad():\n    for data in testloader:\n        images, labels = data\n        outputs = net(images)\n        _, predicted = torch.max(outputs.data, 1)\n        total += labels.size(0)\n        correct += (predicted == labels).sum().item()\n\nprint('Accuracy of the network on the 10000 test images: %d %%' % (\n    100 * correct / total))\n\n# Print the accuracy of each class\nclass_correct = list(0. for i in range(10))\nclass_total = list(0. for i in range(10))\nwith torch.no_grad():\n    for data in testloader:\n        images, labels = data\n        outputs = net(images)\n        _, predicted = torch.max(outputs, 1)\n        c = (predicted == labels).squeeze()\n        for i in range(4):\n            label = labels[i]\n            class_correct[label] += c[i].item()\n            class_total[label] += 1\n\nfor i in range(10):\n    print('Accuracy of %5s : %2d %%' % (\n        classes[i], 100 * class_correct[i] / class_total[i]))",
     "tags": [
         "popitem",
-        "Medium",
-        "normal code"
+        "pytorch",
+        "Medium"
     ],
-    "keyword": "popitem",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "popitem",
+        "pytorch"
+    ],
+    "difficulty": "Medium"
 }

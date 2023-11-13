@@ -1,5 +1,43 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpppkhebpp.py": 1
+        "violations": {
+            "W291 trailing whitespace": 16,
+            "W293 blank line contains whitespace": 2,
+            "E302 expected 2 blank lines, found 1": 1,
+            "E251 unexpected spaces around keyword / parameter equals": 2,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 23,
+        "most_frequent_violation": {
+            "violation_type": "W291 trailing whitespace",
+            "frequency": 16
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 18,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing class docstring (missing-class-docstring)": 2,
+            "Metaclass class method __new__ should have 'mcs' as first argument (bad-mcs-classmethod-argument)": 1,
+            "Instance of 'MyClass' has no 'attribute' member (no-member)": 1,
+            "Too few public methods (0/2) (too-few-public-methods)": 1
+        },
+        "total_violations": 25,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 18
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

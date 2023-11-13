@@ -1,13 +1,13 @@
 {
     "id": "problem_46",
     "description": "",
-    "code": "import collections\n\n# Create a list of integers\nnumbers = [1,2,3,4,5]\n\n# Create a Counter object from the numbers list\ncounter = collections.Counter(numbers)\n\n# Print the Counter object\nprint(counter)",
+    "code": "# Program to create a collection of numbers\n\nnumbers = []\n\n# Ask user how many numbers to add to the collection\nnum_numbers = int(input(\"How many numbers do you want to add to the collection? \"))\n\n# Loop to add numbers to the collection\nfor i in range(num_numbers):\n    number = int(input(\"Enter number: \"))\n    numbers.append(number)\n\n# Print the collection\nprint(numbers)",
     "tags": [
         "collections",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "collections",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "collections"
+    ],
+    "difficulty": "Easy"
 }

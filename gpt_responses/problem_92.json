@@ -1,13 +1,15 @@
 {
     "id": "problem_92",
     "description": "",
-    "code": "def strip_string(string):\n    \"\"\"\n    This function takes a string and removes all whitespace characters from the beginning and end of the string.\n    \"\"\"\n    # Initialize an empty string\n    stripped_string = \"\"\n\n    # Iterate through the characters",
+    "code": "import sys\n\n# This program strips a given string of any whitespace characters.\n\n# Get the string from the command line argument\nstring = sys.argv[1]\n\n# Create a new string which will hold the stripped string\nnewString = \"\"\n\n# Iterate through the given string\nfor character in string:\n    # Check if the character is not whitespace\n    if character != \" \":\n        # If it is not whitespace, add it to the new string\n        newString += character\n\n# Print the stripped string\nprint(newString)",
     "tags": [
         "strip",
-        "High",
-        "well-written code"
+        "sys",
+        "Hard"
     ],
-    "keyword": "strip",
-    "difficulty": "High",
-    "is_well_written_code": true
+    "keywords": [
+        "strip",
+        "sys"
+    ],
+    "difficulty": "Hard"
 }

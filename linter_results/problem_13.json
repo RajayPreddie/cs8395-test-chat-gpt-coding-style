@@ -1,5 +1,44 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmpovj0sk7b.py": 1
+        "violations": {
+            "W291 trailing whitespace": 23,
+            "E302 expected 2 blank lines, found 1": 2,
+            "W191 indentation contains tabs": 9,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 36,
+        "most_frequent_violation": {
+            "violation_type": "W291 trailing whitespace",
+            "frequency": 23
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 23,
+            "Bad indentation. Found 1 spaces, expected 4 (bad-indentation)": 4,
+            "Bad indentation. Found 2 spaces, expected 8 (bad-indentation)": 5,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing class docstring (missing-class-docstring)": 2,
+            "Missing function or method docstring (missing-function-docstring)": 2,
+            "Too few public methods (1/2) (too-few-public-methods)": 2,
+            "Redefining name 'dice' from outer scope (line 26) (redefined-outer-name)": 1
+        },
+        "total_violations": 41,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 23
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

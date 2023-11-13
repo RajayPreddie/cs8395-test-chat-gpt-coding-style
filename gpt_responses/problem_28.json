@@ -1,13 +1,13 @@
 {
     "id": "problem_28",
     "description": "",
-    "code": "# MonkeyPatching\n\n# This code will create a class called \"MonkeyPatching\" which will allow us to easily modify the behavior of an object at runtime.\n\nclass MonkeyPatching:\n    def __init__(self, obj):\n        self.obj",
+    "code": "def monkey_patch(func):\n    \"\"\"\n    This function takes a function as an argument and adds a print statement at the beginning of the function.\n    \"\"\"\n    def wrapper(*args, **kwargs):\n        print(\"Monkey patching function...\")\n        return func(*args, **kwargs)\n    return wrapper\n\n@monkey_patch\ndef add_two_numbers(a, b):\n    \"\"\"\n    Adds two numbers and returns the result.\n    \"\"\"\n    return a + b\n\nprint(add_two_numbers(2, 3)) # prints \"Monkey patching function...\" and 5",
     "tags": [
         "MonkeyPatching",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "MonkeyPatching",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "MonkeyPatching"
+    ],
+    "difficulty": "Easy"
 }

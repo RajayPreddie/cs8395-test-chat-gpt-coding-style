@@ -1,13 +1,15 @@
 {
     "id": "problem_62",
     "description": "",
-    "code": "def intersection(list1, list2): \n  # Create a new list to store the result \n  result = [] \n  \n  # Iterate through the lists \n  for element in list1: \n    # If element is present in both lists",
+    "code": "# Create two sets of numbers\nset1 = {1,2,3,4,5,6,7,8,9,10}\nset2 = {7,8,9,10,11,12,13,14,15,16}\n\n# Compute the intersection of the two sets\nintersection = set1.intersection(set2)\n\n# Print the intersection\nprint(\"Intersection of set1 and set2:\", intersection)\n\n# Check if set1 is a subset of set2\nissubset = set1.issubset(set2)\n\n# Print the result of the subset check\nprint(\"Is set1 a subset of set2?:\", issubset)",
     "tags": [
         "intersection",
-        "Medium",
-        "well-written code"
+        "issubset",
+        "Medium"
     ],
-    "keyword": "intersection",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "intersection",
+        "issubset"
+    ],
+    "difficulty": "Medium"
 }

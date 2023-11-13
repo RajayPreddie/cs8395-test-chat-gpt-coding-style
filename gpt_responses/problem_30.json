@@ -1,13 +1,13 @@
 {
     "id": "problem_30",
     "description": "",
-    "code": "def add_numbers(x, y, z=None):\n    if (z==None):\n        return x + y\n    else:\n        return x + y + z\n\nprint(add_numbers(1, 2))\nprint(add_",
+    "code": "def calculate_sum(x, y, z=0):\n    return x + y + z\n\nprint(calculate_sum(1, 2))  # Output: 3\nprint(calculate_sum(1, 2, 3))  # Output: 6",
     "tags": [
         "Non-default argument",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Non-default argument",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Non-default argument"
+    ],
+    "difficulty": "Easy"
 }

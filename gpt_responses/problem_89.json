@@ -1,13 +1,15 @@
 {
     "id": "problem_89",
     "description": "",
-    "code": "def sort(arr): \n  n = len(arr) \n  for i in range(n): \n    min_idx = i \n    for j in range(i+1, n): \n      if arr[min_idx]",
+    "code": "def sort_startswith(input_list):\n    # Create empty lists\n    output_list = []\n    output_list_two = []\n\n    # Iterate through input list\n    for item in input_list:\n        # Check if item starts with 'a'\n        if item.startswith('a'):\n            # Append item to output list\n            output_list.append(item)\n        else:\n            # Append item to output list two\n            output_list_two.append(item)\n\n    # Sort both output lists\n    output_list.sort()\n    output_list_two.sort()\n\n    # Concatenate both output lists\n    output_list_final = output_list + output_list_two\n\n    # Return final output list\n    return output_list_final\n\n# Test code\ninput_list = ['apple', 'banana', 'carrot', 'dog', 'elephant']\nprint(sort_startswith(input_list)) # should return ['apple', 'banana', 'carrot', 'dog', 'elephant']",
     "tags": [
         "sort",
-        "High",
-        "normal code"
+        "startswith",
+        "Hard"
     ],
-    "keyword": "sort",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "sort",
+        "startswith"
+    ],
+    "difficulty": "Hard"
 }

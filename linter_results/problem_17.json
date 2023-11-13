@@ -1,5 +1,41 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmp_1bx765g.py": 10
+        "violations": {
+            "W291 trailing whitespace": 6,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "E501 line too long (120 > 79 characters)": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 9,
+        "most_frequent_violation": {
+            "violation_type": "W291 trailing whitespace",
+            "frequency": 6
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 6,
+            "Line too long (120/100) (line-too-long)": 1,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1,
+            "Function name \"garbageCollection\" doesn't conform to snake_case naming style (invalid-name)": 1,
+            "Redefining name 'garbage_weight' from outer scope (line 13) (redefined-outer-name)": 1
+        },
+        "total_violations": 12,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 6
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

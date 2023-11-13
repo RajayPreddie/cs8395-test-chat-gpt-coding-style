@@ -1,13 +1,15 @@
 {
     "id": "problem_76",
     "description": "",
-    "code": "# This program will take a list of numbers as an input, and will return a new list with the last number in the list popped off.\n\ndef pop(nums):\n  if len(nums) == 0:\n    return None\n  else:",
+    "code": "my_dict = {\n    \"apple\": \"fruit\",\n    \"carrot\": \"vegetable\",\n    \"potato\": \"vegetable\"\n}\n\n# pop an item\nmy_dict.pop(\"carrot\")\n\n# pop an item using popitem\nitem = my_dict.popitem()\nprint(item)",
     "tags": [
         "pop",
-        "Medium",
-        "well-written code"
+        "popitem",
+        "Medium"
     ],
-    "keyword": "pop",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "pop",
+        "popitem"
+    ],
+    "difficulty": "Medium"
 }

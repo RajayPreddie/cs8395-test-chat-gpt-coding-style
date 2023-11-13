@@ -1,5 +1,42 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmp3_3g2wdt.py": 1
+        "violations": {
+            "E302 expected 2 blank lines, found 1": 2,
+            "E111 indentation is not a multiple of 4": 9,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 13,
+        "most_frequent_violation": {
+            "violation_type": "E111 indentation is not a multiple of 4",
+            "frequency": 9
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Bad indentation. Found 3 spaces, expected 4 (bad-indentation)": 7,
+            "Bad indentation. Found 6 spaces, expected 8 (bad-indentation)": 1,
+            "Bad indentation. Found 9 spaces, expected 12 (bad-indentation)": 1,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 2,
+            "Redefining name 'list1' from outer scope (line 3) (redefined-outer-name)": 2,
+            "Constant name \"found\" doesn't conform to UPPER_CASE naming style (invalid-name)": 1
+        },
+        "total_violations": 16,
+        "most_frequent_violation": {
+            "violation_type": "Bad indentation. Found 3 spaces, expected 4 (bad-indentation)",
+            "frequency": 7
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

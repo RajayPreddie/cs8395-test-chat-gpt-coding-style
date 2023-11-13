@@ -1,13 +1,13 @@
 {
     "id": "problem_32",
     "description": "",
-    "code": "#Polymorphism in Python\n\n#Define a base class\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n\n#Define subclasses\nclass Dog(Animal):\n    def __init__(self,",
+    "code": "class Animal:\n    def __init__(self, name, sound):\n        self.name = name\n        self.sound = sound\n\n    def make_sound(self):\n        print(f\"{self.name} says {self.sound}\")\n\nclass Dog(Animal):\n    def __init__(self, name, sound, breed):\n        super().__init__(name, sound)\n        self.breed = breed\n\n    def make_sound(self):\n        print(f\"{self.name} says {self.sound} and is a {self.breed}\")\n\nclass Cat(Animal):\n    def __init__(self, name, sound, color):\n        super().__init__(name, sound)\n        self.color = color\n\n    def make_sound(self):\n        print(f\"{self.name} says {self.sound} and is {self.color}\")\n\nanimals = [Dog(\"Fido\", \"Woof\", \"Beagle\"), Cat(\"Kitty\", \"Meow\", \"Black\")]\n\nfor animal in animals:\n    animal.make_sound()",
     "tags": [
         "Polymorphism",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "Polymorphism",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "Polymorphism"
+    ],
+    "difficulty": "Easy"
 }

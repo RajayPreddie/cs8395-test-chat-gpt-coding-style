@@ -1,5 +1,40 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmp0w0nnub8.py": 4
+        "violations": {
+            "E265 block comment should start with '# '": 2,
+            "E111 indentation is not a multiple of 4": 1,
+            "E305 expected 2 blank lines after class or function definition, found 1": 1,
+            "E261 at least two spaces before inline comment": 1,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 6,
+        "most_frequent_violation": {
+            "violation_type": "E265 block comment should start with '# '",
+            "frequency": 2
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Bad indentation. Found 2 spaces, expected 4 (bad-indentation)": 1,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Missing function or method docstring (missing-function-docstring)": 1,
+            "Constant name \"x\" doesn't conform to UPPER_CASE naming style (invalid-name)": 1
+        },
+        "total_violations": 5,
+        "most_frequent_violation": {
+            "violation_type": "Constant name \"x\" doesn't conform to UPPER_CASE naming style (invalid-name)",
+            "frequency": 1
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

@@ -1,5 +1,38 @@
 {
     "flake8": {
-        "/var/folders/6z/gdk_375d0lz_c93f0zj4_j4h0000gn/T/tmph660qqd9.py": 1
+        "violations": {
+            "E265 block comment should start with '# '": 4,
+            "W291 trailing whitespace": 2,
+            "W292 no newline at end of file": 1
+        },
+        "total_violations": 7,
+        "most_frequent_violation": {
+            "violation_type": "E265 block comment should start with '# '",
+            "frequency": 4
+        }
+    },
+    "pylint": {
+        "violations": {
+            "Trailing whitespace (trailing-whitespace)": 2,
+            "Final newline missing (missing-final-newline)": 1,
+            "Missing module docstring (missing-module-docstring)": 1,
+            "Unable to import 'torch' (import-error)": 1,
+            "standard import \"import random\" should be placed before \"import torch\" (wrong-import-order)": 1
+        },
+        "total_violations": 6,
+        "most_frequent_violation": {
+            "violation_type": "Trailing whitespace (trailing-whitespace)",
+            "frequency": 2
+        }
+    },
+    "black": {
+        "violations": {
+            "Non-compliant": 1
+        },
+        "total_violations": 1,
+        "most_frequent_violation": {
+            "violation_type": "would reformat",
+            "frequency": 1
+        }
     }
 }

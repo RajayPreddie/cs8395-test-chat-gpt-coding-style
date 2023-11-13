@@ -1,13 +1,15 @@
 {
     "id": "problem_58",
     "description": "",
-    "code": "# Create a dictionary with the fromkeys() function\nmy_dict = dict.fromkeys(['name', 'age', 'country'], \"Unknown\")\n\n# Print the dictionary\nprint(my_dict)\n\n# Update the dictionary values\nmy_dict['",
+    "code": "# This program creates a dictionary with the given list of keys and assigns a default value to each key\n\nkeys = [\"name\", \"age\", \"location\"]\n\n# Create a dictionary with the given list of keys\nmy_dict = dict.fromkeys(keys, \"Unknown\")\n\n# Get the value associated with the key \"name\"\nname = my_dict.get(\"name\")\n\n# Print the value of \"name\"\nprint(name)",
     "tags": [
         "fromkeys",
-        "Medium",
-        "well-written code"
+        "get",
+        "Medium"
     ],
-    "keyword": "fromkeys",
-    "difficulty": "Medium",
-    "is_well_written_code": true
+    "keywords": [
+        "fromkeys",
+        "get"
+    ],
+    "difficulty": "Medium"
 }

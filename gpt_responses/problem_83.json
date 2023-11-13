@@ -1,13 +1,15 @@
 {
     "id": "problem_83",
     "description": "",
-    "code": "import requests\n\nurl = 'https://www.example.com/'\n\nresponse = requests.get(url)\n\nif response.status_code == 200:\n    print(response.text)\nelse:\n    print(\"Error: Could not get response",
+    "code": "import requests\nimport scipy\n\ndef get_weather_data(city):\n    #Get the weather data from the OpenWeatherMap API\n    API_key = 'YOUR_API_KEY_HERE'\n    base_url = \"http://api.openweathermap.org/data/2.5/weather?\"\n    complete_url = base_url + \"appid=\" + API_key + \"&q=\" + city\n    response = requests.get(complete_url)\n    response_json = response.json()\n    if response_json[\"cod\"] != \"404\":\n        weather_data = response_json[\"main\"]\n        return weather_data\n    else:\n        return None\n\ndef get_temperature(weather_data):\n    #Calculate the temperature in Celsius\n    temperature = scipy.absolute(weather_data[\"temp\"] - 273.15)\n    return temperature\n\n# Main function\nif __name__ == '__main__':\n    city = input(\"Enter the city name: \")\n    weather_data = get_weather_data(city)\n    if weather_data:\n        temperature = get_temperature(weather_data)\n        print(\"The temperature in {} is {} degree Celsius\".format(city, temperature))\n    else:\n        print(\"City not found\")",
     "tags": [
         "requests",
-        "High",
-        "normal code"
+        "scipy",
+        "Hard"
     ],
-    "keyword": "requests",
-    "difficulty": "High",
-    "is_well_written_code": false
+    "keywords": [
+        "requests",
+        "scipy"
+    ],
+    "difficulty": "Hard"
 }

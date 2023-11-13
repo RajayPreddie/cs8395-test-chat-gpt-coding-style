@@ -1,13 +1,13 @@
 {
     "id": "problem_41",
     "description": "",
-    "code": "# Create a virtual environment using Python\nimport os\n\n# Create a virtual environment\nvirtualenv_name = \"my_virtual_environment\"\n\n# Create a folder to hold the virtual environment\nif not os.path.exists(virtualenv_name):",
+    "code": "#import the virtual environment library\nimport virtualenv\n\n#create a new virtual environment\nenv = virtualenv.create_environment(\"./venv\")\n\n#activate the environment\nenv.activate()\n\n#install the required packages\nenv.install(\"numpy\")\nenv.install(\"pandas\")\n\n#define a function to generate a random number\ndef random_number():\n\timport random\n\treturn random.randint(1, 10)\n\n#define a function to generate a random list\ndef random_list():\n\timport random\n\tmy_list = []\n\tfor i in range(10):\n\t\tmy_list.append(random.randint(1, 10))\n\treturn my_list\n\n#define a function to calculate the average of a list\ndef average(list):\n\tsum = 0\n\tfor i in list:\n\t\tsum += i\n\treturn sum/len(list)\n\n#test the functions\nprint(\"Random number:\", random_number())\nprint(\"Random list:\", random_list())\nprint(\"Average of list:\", average(random_list()))",
     "tags": [
         "VirtualEnvironment",
-        "Low",
-        "normal code"
+        "Easy"
     ],
-    "keyword": "VirtualEnvironment",
-    "difficulty": "Low",
-    "is_well_written_code": false
+    "keywords": [
+        "VirtualEnvironment"
+    ],
+    "difficulty": "Easy"
 }

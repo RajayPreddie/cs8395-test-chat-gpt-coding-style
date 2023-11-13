@@ -1,13 +1,15 @@
 {
     "id": "problem_69",
     "description": "",
-    "code": "def lower_string(string):\n  lower_string = \"\"\n  for character in string:\n    if ord(character) >= 65 and ord(character) <= 90:\n      lower_string += chr(ord(character) + 32)\n    else:",
+    "code": "# Program to compute and print the lower of two numbers\n\n# Ask the user to enter two numbers\nnum1 = int(input(\"Please enter the first number: \"))\nnum2 = int(input(\"Please enter the second number: \"))\n\n# Compute the lower of the two numbers\nlower_num = min(num1, num2)\n\n# Print the lower number\nprint(\"The lower of the two numbers is:\", lower_num)",
     "tags": [
         "lower",
-        "Medium",
-        "normal code"
+        "math",
+        "Medium"
     ],
-    "keyword": "lower",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "lower",
+        "math"
+    ],
+    "difficulty": "Medium"
 }

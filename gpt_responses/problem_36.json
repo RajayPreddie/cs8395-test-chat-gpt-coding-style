@@ -1,13 +1,13 @@
 {
     "id": "problem_36",
     "description": "",
-    "code": "# Create a set of numbers\n\nnumbers = {1, 2, 3, 4, 5}\n\n# Iterate over the set\nfor num in numbers:\n  # Print each number\n  print(num)",
+    "code": "# Create a program that will remove duplicates from a set\n\n# Create a set\nmy_set = {1, 2, 3, 4, 5, 5, 6, 7, 8, 9}\n\n# Create a new set that will contain the unique elements from the original set\nunique_set = set()\n\n# Iterate through the original set and add the elements to the new set only if it is not already present\nfor element in my_set:\n    if element not in unique_set:\n        unique_set.add(element)\n\n# Print the new set\nprint(unique_set)",
     "tags": [
         "set",
-        "Low",
-        "well-written code"
+        "Easy"
     ],
-    "keyword": "set",
-    "difficulty": "Low",
-    "is_well_written_code": true
+    "keywords": [
+        "set"
+    ],
+    "difficulty": "Easy"
 }

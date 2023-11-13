@@ -1,13 +1,15 @@
 {
     "id": "problem_71",
     "description": "",
-    "code": "import matplotlib.pyplot as plt\n\n# Create data\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 6, 8, 10]\n\n# Plot data\nplt.plot(x, y)",
+    "code": "#import modules \nimport matplotlib.pyplot as plt \nimport multiprocessing\n\n#define data\ndata = [1, 2, 3, 4, 5]\n\n#define function\ndef process_data(data):\n    #process data\n    processed_data = data * 2\n    #return processed data\n    return processed_data\n\n#create multiprocessing pool\npool = multiprocessing.Pool()\n\n#map data to pool\nprocessed_data = pool.map(process_data, data)\n\n#plot data\nplt.plot(processed_data)\nplt.show()",
     "tags": [
         "matplotlib",
-        "Medium",
-        "normal code"
+        "multiprocessing",
+        "Medium"
     ],
-    "keyword": "matplotlib",
-    "difficulty": "Medium",
-    "is_well_written_code": false
+    "keywords": [
+        "matplotlib",
+        "multiprocessing"
+    ],
+    "difficulty": "Medium"
 }
